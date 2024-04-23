@@ -1,5 +1,6 @@
 import "./App.css";
 import { Cats } from "./components/Cats";
+import { Gallery } from "./components/Gallery";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <Cats />
+        <Gallery />
       </header>
     </div>
   );
