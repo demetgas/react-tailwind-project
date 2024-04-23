@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className="flex space-x-6 pr-16 text-gray-400 text-xl cursor-pointer">
         <div className="hover:text-white">LILI</div>
         <div className="hover:text-white">NINA</div>
-        <div className="hover:text-white">MALKOC</div>
+        <div className="hover:text-white">MALKOÇ</div>
         <div className="hover:text-white">FREYJA</div>
       </div>
     </div>

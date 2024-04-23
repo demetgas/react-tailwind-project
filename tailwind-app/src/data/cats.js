@@ -16,7 +16,7 @@ const cats = [
   },
   {
     id: 3,
-    name: "Malkoc",
+    name: "Malkoç",
     img: malkoc,
   },
   {
