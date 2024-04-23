@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <div className="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white ">
       <div className="pl-16 text-2xl text-gray-400 hover:text-3xl hover:text-white transition-all delay-75 cursor-pointer">
-        PAWS
+        LITTLE PAWS
         <FontAwesomeIcon className="icon" icon={faCat} />
       </div>
       <div className="flex space-x-6 pr-16 text-gray-400 text-xl cursor-pointer">
