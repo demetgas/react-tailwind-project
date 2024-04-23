@@ -1,9 +1,8 @@
 import React from "react";
-import cats from "../data/cats";
 
 export const Hero = () => {
   return (
-    <div className="relative w-full h-[90vh] flex justify-end">
+    <div className="relative w-full h-[78.5vh] flex justify-end">
       <img
         src="https://mrwallpaper.com/images/hd/minimalist-black-cat-backgrounds-3gy1fpvdc0tbdimn.jpg"
         alt="/"
@@ -22,11 +21,13 @@ export const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="max-w-[1140px] m-auto absolute top-[35%] right-80">
+      <div className="max-w-[1140px] m-auto absolute transform scale-x-[-1] right-80 opacity-75">
         <div>
-          {cats.map((cat) => (
-            <img key={cat.id} src={cat.img} alt={`Cat ${cat.id}`} />
-          ))}
+          <img
+            src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
+            className=""
+            alt=""
+          />
         </div>
       </div>
     </div>
