@@ -10,7 +10,7 @@ export const Cats = () => {
             {cat.name}
           </h3>
           <img
-            className="w-64 h-64 object-cover relative border-4 border-white shadow-lg" // Adjust the width and height as needed
+            className="w-64 h-64 object-cover relative border-4 border-black shadow-lg"
             src={cat.img}
             alt="/"
           />
