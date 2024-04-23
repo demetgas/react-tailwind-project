@@ -10,7 +10,7 @@ export const Cats = () => {
             {cat.name}
           </h3>
           <img
-            className="w-64 h-64 object-cover relative border-4 border-white shadow-lg"
+            className="w-64 h-64 object-cover relative border-4 border-black p-2 shadow-lg hover:scale-110 delay-75 cursor-pointer"
             src={cat.img}
             alt="/"
           />
