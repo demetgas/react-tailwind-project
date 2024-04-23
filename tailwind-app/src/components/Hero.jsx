@@ -1,4 +1,5 @@
 import React from "react";
+import cats from "../data/cats";
 
 export const Hero = () => {
   return (
@@ -23,7 +24,9 @@ export const Hero = () => {
       </div>
       <div className="max-w-[1140px] m-auto absolute top-[35%] right-80">
         <div>
-          <img src="" alt="" />
+          {cats.map((cat) => (
+            <img key={cat.id} src={cat.img} alt={`Cat ${cat.id}`} />
+          ))}
         </div>
       </div>
     </div>
