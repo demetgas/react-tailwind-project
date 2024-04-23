@@ -2,23 +2,14 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="w-full h-[90vh]">
+    <div className="relative w-full h-[90vh]">
       <img
-        src="https://wallpapercave.com/wp/wp5321419.jpg"
+        src="https://images2.alphacoders.com/133/1335809.png"
         alt="/"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover transform scale-x-[-1]"
       />
-      <div className="max-w-[1140px] m-auto">
-        <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">
-          <h1 className="font-bold text-4xl">Find Your Special Trip</h1>
-          <h2 className="text-4xl py-4 italic">With Weekaway</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-            doloribus totam dicta ab ratione. Explicabo eveniet dolor, omnis in
-            recusandae temporibus suscipit cum nihil officia deserunt possimus
-            saepe praesentium accusamus!
-          </p>
-        </div>
+      <div className="absolute bottom-40  w-[50%] h-full flex items-center justify-center text-white">
+        <h1 className="text-4xl font-bold">Hello There!</h1>
       </div>
     </div>
   );
