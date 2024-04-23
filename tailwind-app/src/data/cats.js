@@ -1,23 +1,28 @@
+import lili from "../assets/lili.jpeg";
+import freyja from "../assets/freyja.jpeg";
+import malkoc from "../assets/malkoc.jpeg";
+import nina from "../assets/nina.jpeg";
+
 const cats = [
   {
     id: 1,
     name: "Lili",
-    img: "https://hellobark.com/wp-content/uploads/black-and-white-cat.jpg",
+    img: lili,
   },
   {
     id: 2,
     name: "Nina",
-    img: "https://dbw3zep4prcju.cloudfront.net/animal/15708739-aae0-4b7a-98b4-8abc6d917a3e/image/987b59d1-b396-4274-a9fd-858fb5e695a1.jpeg?versionId=fqkKppAUWzaxM7HBvTuZNgms6pEfKPvR&bust=1713385425&width=600",
+    img: nina,
   },
   {
     id: 3,
     name: "Malkoc",
-    img: "https://www.rover.com/blog/wp-content/uploads/cat-breathing-fast-orange-kitten.jpg",
+    img: malkoc,
   },
   {
     id: 4,
     name: "Freyja",
-    img: "https://www.catster.com/wp-content/uploads/2023/12/Calico-Cat-Sofa.jpg",
+    img: freyja,
   },
 ];
 export default cats;
