@@ -44,7 +44,10 @@ export const ReadMore = () => {
           Read More
         </button>
       </div>
-      <img src="" alt="" />
+      <img
+        src="https://t4.ftcdn.net/jpg/03/10/47/95/360_F_310479588_Zpy6PVYM18UkwqDUMGUX5dh53AAK9GHZ.jpg"
+        alt=""
+      />
     </div>
   );
 };
