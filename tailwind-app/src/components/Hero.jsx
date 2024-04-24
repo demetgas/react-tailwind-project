@@ -21,7 +21,7 @@ export const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="max-w-[1140px] m-auto absolute transform scale-x-[-1] right-80 opacity-75">
+      <div className="max-w-[1140px] m-auto top-6 absolute transform scale-x-[-1] right-80 opacity-75">
         <div>
           <img
             src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
