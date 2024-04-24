@@ -3,7 +3,7 @@ import cats from "../data/cats";
 
 export const Cats = () => {
   return (
-    <div className="max-w-[1140px] m-auto w-full grid grid-cols-4  mt-[-75px]">
+    <div className="max-w-[1140px] m-auto w-full grid md:grid-cols-4  mt-[-75px]">
       {cats.map((cat) => (
         <div
           className="relative p-4 hover:scale-110 delay-75 cursor-pointer"
