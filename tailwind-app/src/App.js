@@ -6,6 +6,7 @@ import { Hero } from "./components/Hero";
 import { Info } from "./components/Info";
 import { Message } from "./components/Message";
 import { Navbar } from "./components/Navbar";
+import { ReadMore } from "./components/ReadMore";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Cats />
         <Info />
+        <ReadMore />
         <Gallery />
         <Message />
         <Footer />
