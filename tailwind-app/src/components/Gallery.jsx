@@ -4,7 +4,7 @@ import galleryArray from "../data/gallery";
 export const Gallery = () => {
   return (
     <div>
-      <h2 className="text-center text-gray-700 mt-80 font-bold text-4xl ">
+      <h2 className="text-center text-gray-700 mt-[480px] font-bold text-4xl ">
         Gallery
       </h2>
       <div className="grid grid-cols-2  max-w-[90rem] gap-20">
