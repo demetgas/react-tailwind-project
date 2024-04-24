@@ -9,11 +9,11 @@ export const Message = () => {
       <p className="text-center text-gray-700 text-2xl">
         Can't wait to hear your thoughts!
       </p>
-      <div className="grid md:grid-cols-2 mt-16 ">
+      <div className="grid md:grid-cols-2 mt-16 mx-20 ">
         <img
           src={cat}
           alt="/"
-          className=" md:h-full  p-2 max-h-[500px] h-[200px] ml-20 w-[420px]"
+          className=" md:h-full  p-2 max-h-[500px] h-[200px] w-[420px]"
         />
         <form>
           <div className="grid grid-cols-2 ">
