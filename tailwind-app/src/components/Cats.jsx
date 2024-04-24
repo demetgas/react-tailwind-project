@@ -9,7 +9,7 @@ export const Cats = () => {
           className="relative p-4 hover:scale-110 delay-75 cursor-pointer"
           key={cat.id}
         >
-          <h3 className="absolute z-10 top-[80%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 bg-black text-white bg-opacity-70 rounded-md p-1.5 border-black text-xl font-bold">
+          <h3 className="absolute z-10 top-[105%] left-[50%] transform -translate-x-1/2 -translate-y-1/2  text-black underline bg-opacity-70 rounded-md p-1.5 border-black text-xl font-bold">
             {cat.name}
           </h3>
           <img
