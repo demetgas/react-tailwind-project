@@ -4,37 +4,37 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="w-full mt-[270px] h-[15svh]">
+    <div className="w-full mt-[270px] h-[15svh] place-content-center flex">
       <div>
         <p>About Us</p>
-        <h1>
+        <h1 className="mt-2">
           {" "}
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats{" "}
         </h1>
-        <p className="text-justify max-w-md">
+        <p className="text-justify max-w-md mt-3">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as
           beloved companions in modern times, embody a unique blend of
           independence and affection.
         </p>
-        <div className="flex">
-          <FontAwesomeIcon className="icon" icon={faArrowRight} />
+        <div className="flex my-3">
+          <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
             Cats possess an innate grace, moving with elegance and precision in
             every step.
           </p>
         </div>
-        <div className="flex">
-          <FontAwesomeIcon className="icon" icon={faArrowRight} />
+        <div className="flex my-3">
+          <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
             Their expressive eyes reveal a depth of emotion and intelligence
             that intrigues and delights.{" "}
           </p>
         </div>
 
-        <div className="flex">
-          <FontAwesomeIcon className="icon" icon={faArrowRight} />
+        <div className="flex my-3">
+          <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
             From playful antics to serene moments of contemplation, cats weave a
             tapestry of charm into the fabric of our lives.
