@@ -10,10 +10,18 @@ export const Navbar = () => {
         <FontAwesomeIcon className="icon" icon={faCat} />
       </div>
       <div className="flex space-x-6 pr-16 text-gray-400 text-xl cursor-pointer">
-        <div className="hover:text-white">LILI</div>
-        <div className="hover:text-white">NINA</div>
-        <div className="hover:text-white">MALKOÇ</div>
-        <div className="hover:text-white">FREYJA</div>
+        <a href="/" className="hover:text-white">
+          Home
+        </a>
+        <a href="/" className="hover:text-white">
+          Info
+        </a>
+        <a href="/" className="hover:text-white">
+          Contact
+        </a>
+        <a href="/" className="hover:text-white">
+          Gallery
+        </a>
       </div>
     </div>
   );
