@@ -2,7 +2,7 @@ import React from "react";
 import cat from "../assets/f2.jpeg";
 export const Message = () => {
   return (
-    <div className="max-w-[1140px] m-auto w-full mt-[10svh] ">
+    <div className="max-w-[1140px] m-auto w-full mt-[40svh] ">
       <h2 className="text-center text-gray-700 p-4 font-bold text-4xl">
         Send us a message
       </h2>
