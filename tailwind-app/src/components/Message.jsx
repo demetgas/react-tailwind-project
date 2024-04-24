@@ -39,7 +39,7 @@ export const Message = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <button className="m-2 p-2 col-span-2 rounded text-white bg-teal-950 hover:bg-teal-900">
+            <button className="m-2 p-2 col-span-2 rounded text-white bg-hero2 hover:bg-hero">
               Submit
             </button>
           </div>

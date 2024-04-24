@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         babyblue: "#d4dfe7",
+        hero: "#091315",
+        hero2: "#142529",
       },
     },
   },
