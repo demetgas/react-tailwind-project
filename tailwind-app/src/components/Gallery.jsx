@@ -16,7 +16,7 @@ export const Gallery = () => {
                   key={picture.id}
                   src={picture.img}
                   alt=""
-                  className="w-60 h-60"
+                  className="w-60 h-60 "
                 />
               ))}
             </div>
