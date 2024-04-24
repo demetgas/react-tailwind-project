@@ -7,7 +7,7 @@ export const Message = () => {
         <div className="text-center text-gray-700 p-4 font-bold text-4xl">
           Send us a message
         </div>
-        <div className="text-center text-gray-700 p-4 font-bold text-2xl">
+        <div className="text-center text-gray-700 text-2xl">
           Can't wait to hear your thoughts!
         </div>
         <img src="" alt="" />
