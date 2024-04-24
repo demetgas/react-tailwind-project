@@ -1,5 +1,6 @@
 import "./App.css";
 import { Cats } from "./components/Cats";
+import { Footer } from "./components/Footer";
 import { Gallery } from "./components/Gallery";
 import { Hero } from "./components/Hero";
 import { Info } from "./components/Info";
@@ -14,8 +15,9 @@ function App() {
         <Hero />
         <Cats />
         <Info />
-        <Message />
         <Gallery />
+        <Message />
+        <Footer />
       </header>
     </div>
   );
