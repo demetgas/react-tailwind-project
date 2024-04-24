@@ -11,7 +11,7 @@ import ten from "../assets/10.jpeg";
 import eleven from "../assets/11.jpeg";
 import twelve from "../assets/12.jpeg";
 
-const gallery = [
+const gallery1 = [
   {
     id: 1,
     img: two,
@@ -61,4 +61,58 @@ const gallery = [
     img: twelve,
   },
 ];
-export default gallery;
+
+const gallery2 = [
+  {
+    id: 1,
+    img: two,
+  },
+  {
+    id: 2,
+    img: seven,
+  },
+  {
+    id: 3,
+    img: six,
+  },
+  {
+    id: 4,
+    img: nine,
+  },
+  {
+    id: 5,
+    img: eleven,
+  },
+  {
+    id: 6,
+    img: four,
+  },
+  {
+    id: 7,
+    img: three,
+  },
+  {
+    id: 8,
+    img: eight,
+  },
+  {
+    id: 9,
+    img: one,
+  },
+  {
+    id: 10,
+    img: ten,
+  },
+  {
+    id: 11,
+    img: five,
+  },
+  {
+    id: 12,
+    img: twelve,
+  },
+];
+
+const galleryArray = [gallery1, gallery2];
+
+export default galleryArray;
