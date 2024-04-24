@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="w-full mt-[270px] h-[15svh] place-content-center flex">
+    <div className="w-full mt-[180px] h-[15svh] place-content-center flex">
       <div>
         <p className="underline">About Us</p>
         <h1 className="text-2xl mt-2">
