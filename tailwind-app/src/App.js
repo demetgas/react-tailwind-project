@@ -2,6 +2,7 @@ import "./App.css";
 import { Cats } from "./components/Cats";
 import { Gallery } from "./components/Gallery";
 import { Hero } from "./components/Hero";
+import { Message } from "./components/Message";
 import { Navbar } from "./components/Navbar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Hero />
         <Cats />
+        <Message />
         <Gallery />
       </header>
     </div>
