@@ -2,9 +2,9 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-[40svh] bg-hero mt-40 flex text-xl justify-center gap-8">
+    <div className="w-full h-max-[45svh] bg-hero mt-40 flex text-xl justify-center gap-8">
       <div className="text-white flex flex-col ">
-        <h2 className="mt-[120px]  text-2xl">About Us</h2>
+        <h2 className="mt-[90px]  text-2xl">About Us</h2>
         <a className="my-[10px]" href="/">
           How it works
         </a>
@@ -22,7 +22,7 @@ export const Footer = () => {
         </a>
       </div>
       <div className="text-white flex flex-col ml-[80px]">
-        <h2 className="mt-[120px]  text-2xl">Contact Us</h2>
+        <h2 className="mt-[90px]  text-2xl">Contact Us</h2>
         <a className="my-[10px]" href="/">
           Contact
         </a>
@@ -37,7 +37,7 @@ export const Footer = () => {
         </a>
       </div>{" "}
       <div className="text-white flex flex-col ml-[80px]">
-        <h2 className="mt-[120px]  text-2xl">Videos</h2>
+        <h2 className="mt-[90px]  text-2xl">Videos</h2>
         <a className="my-[10px]" href="/">
           Submit Video
         </a>
@@ -52,7 +52,7 @@ export const Footer = () => {
         </a>
       </div>{" "}
       <div className="text-white flex flex-col ml-[80px]">
-        <h2 className="mt-[120px]  text-2xl">Social Media</h2>
+        <h2 className="mt-[90px]  text-2xl">Social Media</h2>
         <a className="my-[10px]" href="/">
           Instagram
         </a>
@@ -67,7 +67,7 @@ export const Footer = () => {
         </a>
       </div>{" "}
       <div className="text-white flex flex-col ml-[80px]">
-        <h2 className="mt-[120px]  text-2xl">Little Paws</h2>
+        <h2 className="mt-[90px] text-2xl">Little Paws</h2>
         <a className="my-[10px]" href="/">
           Lili
         </a>
