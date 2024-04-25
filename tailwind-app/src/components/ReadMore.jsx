@@ -8,7 +8,7 @@ export const ReadMore = () => {
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt=""
-        className="w-[15svw] h-[35svh] mt-10"
+        className="w-[15svw] h-[45svh] "
       />
       <div>
         <p className="underline text-[25px]">About Us</p>

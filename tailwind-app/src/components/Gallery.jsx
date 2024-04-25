@@ -8,7 +8,7 @@ export const Gallery = () => {
         Gallery
       </h2>
       <div className="flex justify-evenly">
-        <div className="border-x-8 border-y-8 my-auto max-h-[45svh] ">
+        <div className="border-x-8 border-y-8 border-babyblue my-auto max-h-[45svh] ">
           <h1 className="text-center text-gray-700 text-[25px] mt-12  ">
             The pictures sent by our users...
           </h1>
@@ -44,7 +44,7 @@ export const Gallery = () => {
                     key={picture.id}
                     src={picture.img}
                     alt=""
-                    className="max-w-60 max-h-60  my-2"
+                    className="max-w-60 max-h-60 border-2  my-2"
                   />
                 ))}
               </div>
