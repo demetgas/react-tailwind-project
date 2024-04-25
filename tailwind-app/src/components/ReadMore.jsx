@@ -8,7 +8,7 @@ export const ReadMore = () => {
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt="Enigmatic Cat"
-        className="w-full md:min-w-[300px] mx-auto lg:max-w-[16svw] lg:max-h-[45svh] md:w-[45svw] md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+        className="w-full md:min-w-[400px] md:min-h-[490px] mx-auto lg:max-w-[16svw] lg:max-h-[45svh]  md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
       <div className="flex flex-col lg:mt-0 md:mt-20">
         <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
@@ -63,7 +63,7 @@ export const ReadMore = () => {
           Also here is what our users said...
         </h1>
         <div className="grid grid-cols-1 gap-6 mt-6 mx-auto">
-          <div className="border max-w-full h-auto border-gray-300 rounded p-4">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
             <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
@@ -73,7 +73,7 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border max-w-full h-auto border-gray-300 rounded p-4">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
             <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
@@ -83,7 +83,7 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border max-w-full h-auto border-gray-300 rounded p-4">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
             <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
