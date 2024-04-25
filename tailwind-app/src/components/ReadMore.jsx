@@ -59,7 +59,7 @@ export const ReadMore = () => {
         </button>
       </div>
       <div className=" mx-auto lg:ml-0 md:ml-[50%] w-full text-center">
-        <h1 className="text-center text-gray-700 font-bold text-4xl md:text-3xl">
+        <h1 className="lg:text-2xl md:text-[25px] sm:text-xl mt-2 font-bold">
           Also here is what our users said...
         </h1>
         <div className="grid grid-cols-1 gap-6 mt-6 mx-auto sm:m-5">
