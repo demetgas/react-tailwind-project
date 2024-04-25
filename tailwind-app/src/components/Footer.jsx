@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-max-[45svh] bg-hero mt-40 flex text-xl justify-center gap-8">
+    <div className="w-full h-max-[45svh] bg-hero mt-[280px] flex text-xl justify-center gap-8">
       <div className="text-white flex flex-col ">
         <h2 className="mt-[90px]  text-2xl">About Us</h2>
         <a className="my-[10px]" href="/">
