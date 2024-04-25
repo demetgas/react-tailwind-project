@@ -33,7 +33,7 @@ export const Info = () => {
           <img
             src="https://images.vexels.com/media/users/3/272056/isolated/preview/54b293603423b19ebd21fee4c7f475e8-cute-black-cartoon-cat.png"
             alt=""
-            className="max-w-[400px] max-h-full"
+            className="max-w-[400px] max-h-full hover:scale-110 transition-all delay-75"
           />
         </div>
       </div>

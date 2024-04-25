@@ -9,7 +9,7 @@ export const ReadMore = () => {
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
           alt=""
-          className="w-[16svw] h-[45svh] ml-60 shadow-2xl shadow-hero hover:w-[18svw] hover:h-[47svh] transition-all delay-75"
+          className="w-[16svw] h-[45svh] ml-60 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
         />
         <div className="flex flex-col">
           <p className="underline text-[20px] font-bold cursor-pointer">
