@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const ReadMore = () => {
   return (
     <div className="flex justify-center items-center mt-[85px] ">
-      <div className="w-full h-[15svh] grid grid-cols-3 place-items-center">
+      <div className="w-full h-[15svh] grid grid-cols-3 items-center">
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
           alt=""
-          className="w-[16svw] h-[45svh] ml-20 mt-[-40px] shadow-2xl shadow-hero"
+          className="w-[16svw] h-[45svh] ml-60 shadow-2xl shadow-hero"
         />
         <div className="flex flex-col">
           <p className="underline text-[20px] font-bold">About Us</p>
