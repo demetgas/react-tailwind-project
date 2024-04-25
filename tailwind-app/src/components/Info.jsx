@@ -2,7 +2,7 @@ import React from "react";
 
 export const Info = () => {
   return (
-    <div className="max-w-[100%] p-10 lg:mt-[700px] md:mt-[1400px] sm:mt-[1670px]  bg-babyblue">
+    <div className="max-w-[100%] p-10 lg:mt-[850px] md:mt-[1500px] sm:mt-[1670px]  bg-babyblue">
       <h2 className="text-center text-gray-700 p-4  font-bold text-4xl italic">
             Cats are fascinating creatures
           </h2>
