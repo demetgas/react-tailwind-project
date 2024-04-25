@@ -29,7 +29,7 @@ export const Gallery = () => {
             and meaningful. Thank you for being a part of our community!
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-1">
+        <div className="grid md:grid-cols-2 sm:grid-cols-2 md:mx-auto md:gap-x-20 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1">
           {gallery.map((picture) => (
             <img
               key={picture.id}
