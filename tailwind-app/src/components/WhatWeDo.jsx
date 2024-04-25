@@ -1,41 +1,42 @@
 import React from 'react'
-import { faCat,faPaw,faFishFins,faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faCat,faPaw,faBowlFood,faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const WhatWeDo = () => {
   return (
-    <div className='max-w-[100%] h-[40svh] mt-20'>
-      <div className='grid grid-cols-4 '>
-        <div className='mx-auto border-2 p-5'>
+    <div className='max-w-[100%] lg:h-[30svh] md:h-[70svh] mt-20'>
+      <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-10'>
+      <div className='mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] h-auto p-5'> 
         <FontAwesomeIcon
-            className=" hover:text-babyblue2 delay-75 cursor-pointer"
+            className=" md:mx-[90px] lg:mx-[220px] h-[60px] m-4 text-babyblue2 hover:scale-110 transition-all delay-75 cursor-pointer"
             icon={faCat}
           />
-          <h2>A Lovely Buddy</h2>
+          <h2 className='text-center font-bold m-2'>A Lovely Friend</h2>
+<p className='text-center text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iusto sit corrupti? Distinctio cumque, itaque dicta nemo ipsa obcaecati accusantium repellendus voluptatum reprehenderit deleniti cupiditate ad fugit illo blanditiis nisi?</p>
         </div>
-        <div className='mx-auto border-2 p-5'>
+        <div className='mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] h-auto p-5'> 
         <FontAwesomeIcon
-            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
+            className="  md:mx-[90px] lg:mx-[220px] h-[60px] m-4 text-babyblue2 hover:scale-110 transition-alldelay-75 cursor-pointer"
             icon={faPaw}
           />
-          <h2>A Lovely Place</h2>
-
+          <h2 className='text-center font-bold m-2'>A Lovely Place</h2>
+<p className='text-center text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iusto sit corrupti? Distinctio cumque, itaque dicta nemo ipsa obcaecati accusantium repellendus voluptatum reprehenderit deleniti cupiditate ad fugit illo blanditiis nisi?</p>
         </div>
-        <div className='mx-auto border-2 p-5'> 
+        <div className='mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] h-auto p-5'> 
         <FontAwesomeIcon
-            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
-            icon={faFishFins}
+            className="  md:mx-[90px] lg:mx-[220px] h-[60px] m-4 text-babyblue2 hover:scale-110 transition-all delay-75 cursor-pointer"
+            icon={faBowlFood}
           />
-          <h2>A Lovely Meal</h2>
-
+          <h2 className='text-center font-bold m-2'>A Lovely Meal</h2>
+<p className='text-center text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iusto sit corrupti? Distinctio cumque, itaque dicta nemo ipsa obcaecati accusantium repellendus voluptatum reprehenderit deleniti cupiditate ad fugit illo blanditiis nisi?</p>
         </div>
-        <div className='mx-auto border-2 p-5'>
+        <div className='mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] h-auto p-5'> 
         <FontAwesomeIcon
-            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
+            className="  md:mx-[90px] lg:mx-[220px] h-[60px] m-4 text-babyblue2 hover:scale-110 transition-all delay-75 cursor-pointer"
             icon={faHeart}
           />
-          <h2>A Lovely Day</h2>
-
+          <h2 className='text-center font-bold m-2'>A Lovely Day</h2>
+<p className='text-center text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iusto sit corrupti? Distinctio cumque, itaque dicta nemo ipsa obcaecati accusantium repellendus voluptatum reprehenderit deleniti cupiditate ad fugit illo blanditiis nisi?</p>
         </div>
       </div>
     </div>
