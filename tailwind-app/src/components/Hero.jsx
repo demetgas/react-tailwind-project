@@ -26,7 +26,7 @@ export const Hero = () => {
           <img
             src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
             alt="/"
-            className="max-w-full max-h-[85svh] opacity-75 transform scale-x-[-1] self-end"
+            className="max-w-full max-h-max opacity-75 transform scale-x-[-1] self-end"
           />
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import cat from "../assets/f2.jpeg";
 export const Message = () => {
   return (
-    <div className="max-w-[1140px] m-auto w-full mt-[55svh] ">
+    <div className="max-w-[1140px] m-auto w-full mt-[15svh] ">
       <h2 className="text-center text-gray-700 p-4 font-bold text-4xl">
         Send us a message
       </h2>
@@ -17,7 +17,11 @@ export const Message = () => {
         />
         <form>
           <div className="grid grid-cols-2  ">
-            <input className="border m-2 p-2 rounded" type="text" placeholder="Name" />
+            <input
+              className="border m-2 p-2 rounded"
+              type="text"
+              placeholder="Name"
+            />
             <input
               className="border m-2 p-2 rounded"
               type="text"
@@ -28,7 +32,11 @@ export const Message = () => {
               type="email"
               placeholder="Email"
             />
-            <input className="border m-2 p-2 rounded" type="tel" placeholder="Phone" />
+            <input
+              className="border m-2 p-2 rounded"
+              type="tel"
+              placeholder="Phone"
+            />
             <input
               className="border col-span-2 p-2 m-2 rounded"
               type="text"
