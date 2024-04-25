@@ -2,14 +2,14 @@ import React from "react";
 import cat from "../assets/f2.jpeg";
 export const Message = () => {
   return (
-    <div className="max-w-[1140px] m-auto w-full mt-[15svh] ">
+    <div className="max-w-[1140px] m-auto w-full mt-[10svh] ">
       <h2 className="text-center text-gray-700 p-4 font-bold text-4xl">
         Send us a message
       </h2>
       <p className="text-center text-gray-700 text-2xl">
         Can't wait to hear your thoughts!
       </p>
-      <div className="grid md:grid-cols-2 mt-16 mx-20">
+      <div className="grid md:grid-cols-2 mt-16 ">
         <img
           src={cat}
           alt="/"
