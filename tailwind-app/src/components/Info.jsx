@@ -3,11 +3,12 @@ import React from "react";
 export const Info = () => {
   return (
     <div className="max-w-[100%] p-10 lg:mt-[700px] md:mt-[1400px] sm:mt-[1000px]  bg-babyblue">
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">
-        <div className="text-justify">
-          <h2 className="text-center text-gray-700 p-4  font-bold text-4xl italic">
+      <h2 className="text-center text-gray-700 p-4  font-bold text-4xl italic">
             Cats are fascinating creatures
           </h2>
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">
+        <div className="text-justify">
+          
           <p className="mb-7 mt-10 text-lg">
             Cats' unique behaviors, from their playful antics to their grooming
             rituals, highlight their captivating nature. Despite their
