@@ -8,7 +8,7 @@ export const Gallery = () => {
         The pictures sent by our users...
       </h2>
       <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center gap-20">
-        <div className="border-x-8 border-y-8 border-babyblue my-auto max-h-[45svh] ">
+        <div className="border-x-8 border-y-8 border-babyblue my-auto md:max-h-[45svh] md:max-w-[75svw]   md:content-center lg:max-h-[45svh] ">
           <h1 className="text-center text-gray-700 text-[25px] mt-12  ">
             Thank you
           </h1>
