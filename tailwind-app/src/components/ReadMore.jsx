@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="w-full mt-[180px] md:h-[20svh] place-content-center flex justify-center">
+    <div className="w-full mt-[280px] md:h-[20svh] place-content-center flex justify-center">
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt=""

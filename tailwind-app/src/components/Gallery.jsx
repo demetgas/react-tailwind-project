@@ -4,7 +4,7 @@ import galleryArray from "../data/gallery";
 export const Gallery = () => {
   return (
     <div className="w-full h-[80svh] ">
-      <h2 className="text-center text-gray-700 mt-[480px] font-bold text-4xl">
+      <h2 className="text-center text-gray-700 mt-[280px] font-bold text-4xl">
         Gallery
       </h2>
       <div className="flex justify-evenly">
