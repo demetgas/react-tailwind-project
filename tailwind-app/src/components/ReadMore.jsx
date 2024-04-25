@@ -4,20 +4,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="w-full mt-[180px] md:h-[20svh] place-content-center flex">
+    <div className="w-full mt-[180px] md:h-[20svh] place-content-center flex justify-center">
+      <img
+        src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
+        alt=""
+        className="w-[15svw] h-[35svh] mx-20 mt-10"
+      />
       <div>
-        <p className="underline">About Us</p>
-        <h1 className="text-2xl mt-2">
+        <p className="underline text-[25px]">About Us</p>
+        <h1 className="text-4xl mt-2">
           {" "}
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats{" "}
         </h1>
-        <p className="text-lg text-justify max-w-md mt-3">
+        <p className="text-[20px] text-justify max-w-md mt-3">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as
           beloved companions in modern times, embody a unique blend of
           independence and affection.
         </p>
+
         <div className="flex my-5">
           <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
@@ -40,15 +46,24 @@ export const ReadMore = () => {
             tapestry of charm into the fabric of our lives.
           </p>
         </div>
-        <button className="bg-hero2 rounded w-32 h-12 text-white font-bold">
+        <button className="bg-hero2 rounded w-32 h-12 text-white font-bold mt-10">
           Read More
         </button>
       </div>
-      <img
-        src="https://t4.ftcdn.net/jpg/03/10/47/95/360_F_310479588_Zpy6PVYM18UkwqDUMGUX5dh53AAK9GHZ.jpg"
-        alt=""
-        className=""
-      />
+      <div>
+        <p className="text-[20px] text-justify max-w-md mt-[100px]">
+          Cats, with their enigmatic gaze and graceful movements, possess an
+          undeniable allure that has captivated humans for centuries. These
+          enigmatic felines, revered in ancient cultures and cherished as
+          beloved companions in modern times, embody a unique blend of
+          independence and affection.
+        </p>
+      </div>
     </div>
   );
 };
+/*<img
+        src="https://t4.ftcdn.net/jpg/03/10/47/95/360_F_310479588_Zpy6PVYM18UkwqDUMGUX5dh53AAK9GHZ.jpg"
+        alt=""
+        className=""
+      />*/
