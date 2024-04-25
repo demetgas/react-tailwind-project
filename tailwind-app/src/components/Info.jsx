@@ -3,7 +3,7 @@ import React from "react";
 export const Info = () => {
   return (
     <div className="w-full mt-[530px] h-auto bg-babyblue">
-      <div className="grid grid-cols-2 gap-32 max-w-[1140px] mx-auto py-10">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">
         <div className="text-justify">
           <h2 className="text-center text-gray-700 p-4 font-bold text-4xl italic">
             Cats are fascinating creatures
