@@ -11,7 +11,7 @@ export const ReadMore = () => {
         className="w-[15svw] h-[45svh] "
       />
       <div>
-        <p className="underline text-[25px]">About Us</p>
+        <p className="underline text-[25px] font-bold">About Us</p>
         <h1 className="text-4xl mt-2">
           {" "}
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats{" "}
