@@ -24,7 +24,7 @@ export const ReadMore = () => {
             independence and affection.
           </p>
 
-          <div className="flex my-5 text-[17px]">
+          <div className="flex mt-5 text-[17px]">
             <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
             <p>
               Cats possess an innate grace, moving with elegance and precision
