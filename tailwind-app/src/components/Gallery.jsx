@@ -5,12 +5,12 @@ export const Gallery = () => {
   return (
     <div className="w-full h-[80svh] mx-auto">
       <h2 className="text-center text-gray-700 mt-[280px] font-bold text-4xl">
-        Gallery
+        The pictures sent by our users...
       </h2>
       <div className="flex justify-center gap-20">
         <div className="border-x-8 border-y-8 border-babyblue my-auto max-h-[45svh] ">
           <h1 className="text-center text-gray-700 text-[25px] mt-12  ">
-            The pictures sent by our users...
+            Thank you
           </h1>
           <p
             className="mb-7 mt-10 text-lg text-justify w-[500px] m-10
