@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ReadMore = () => {
   return (
-    <div className="max-w-[1900px] mx-auto h-[20svh] grid md:grid-cols-2 lg:grid-cols-3 gap-[50px] items-center">
+    <div className="max-w-[1900px] mt-40 mx-auto h-[20svh] grid md:grid-cols-2 lg:grid-cols-3 gap-[50px] items-center">
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
-        alt=""
-        className="lg:max-w-[18svw] lg:max-h-[45svh] md:w-[45svw] md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+        alt="Enigmatic Cat"
+        className="w-full md:min-w-[300px] mx-auto lg:max-w-[16svw] lg:max-h-[45svh] md:w-[45svw] md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
       <div className="flex flex-col lg:mt-0 md:mt-20">
         <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
@@ -58,11 +58,11 @@ export const ReadMore = () => {
           Read More
         </button>
       </div>
-      <div className="lg:mt-12 md:mt-0 mx-auto">
-        <h1 className="text-center mx-auto text-gray-700 font-bold mt-20 text-4xl md:text-3xl">
+      <div className=" mx-auto lg:ml-0 md:ml-[50%] w-full text-center">
+        <h1 className="text-center text-gray-700 font-bold text-4xl md:text-3xl">
           Also here is what our users said...
         </h1>
-        <div className="grid grid-cols-1 gap-6 mt-6">
+        <div className="grid grid-cols-1 gap-6 mt-6 mx-auto">
           <div className="border max-w-full h-auto border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
             <p className="text-lg md:text-xl">
