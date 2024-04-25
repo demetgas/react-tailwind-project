@@ -62,7 +62,7 @@ const gallery1 = [
   },
 ];
 
-const gallery2 = [
+/*const gallery2 = [
   {
     id: 1,
     img: two,
@@ -112,7 +112,7 @@ const gallery2 = [
     img: twelve,
   },
 ];
+*/
+//const galleryArray = [gallery1];
 
-const galleryArray = [gallery1, gallery2];
-
-export default galleryArray;
+export default gallery1;
