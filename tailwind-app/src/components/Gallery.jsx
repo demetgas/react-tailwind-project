@@ -3,11 +3,11 @@ import galleryArray from "../data/gallery";
 
 export const Gallery = () => {
   return (
-    <div className="w-full h-[80svh] ">
+    <div className="w-full h-[80svh] mx-auto">
       <h2 className="text-center text-gray-700 mt-[280px] font-bold text-4xl">
         Gallery
       </h2>
-      <div className="flex justify-evenly">
+      <div className="flex justify-center gap-20">
         <div className="border-x-8 border-y-8 border-babyblue my-auto max-h-[45svh] ">
           <h1 className="text-center text-gray-700 text-[25px] mt-12  ">
             The pictures sent by our users...
@@ -35,9 +35,9 @@ export const Gallery = () => {
             and meaningful. Thank you for being a part of our community!
           </p>
         </div>
-        <div className="grid grid-cols-2 max-w-[90rem] gap-32 ">
+        <div className="grid grid-cols-2 max-w-[90rem]  ">
           {galleryArray.map((array) => (
-            <div className="w-fit h-[65vh] mt-20 mx-auto ">
+            <div className=" h-[65vh] mt-20  ">
               <div className="grid grid-cols-4">
                 {array.map((picture) => (
                   <img

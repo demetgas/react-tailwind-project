@@ -11,12 +11,12 @@ export const ReadMore = () => {
         className="w-[16svw] h-[45svh] mt-[-40px] shadow-2xl shadow-hero "
       />
       <div>
-        <p className="underline text-[25px] font-bold">About Us</p>
-        <h1 className="text-4xl mt-2">
+        <p className="underline text-[20px] font-bold">About Us</p>
+        <h1 className="text-3xl mt-2">
           {" "}
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats{" "}
         </h1>
-        <p className="text-[20px] text-justify max-w-[680px] mt-3 ">
+        <p className="text-[20px] text-justify max-w-[650px] mt-3 ">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as
@@ -24,14 +24,14 @@ export const ReadMore = () => {
           independence and affection.
         </p>
 
-        <div className="flex my-5 text-[20px]">
+        <div className="flex my-5 text-[17px]">
           <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
             Cats possess an innate grace, moving with elegance and precision in
             every step.
           </p>
         </div>
-        <div className="flex my-5 text-[20px]">
+        <div className="flex my-5 text-[17px]">
           <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
             Their expressive eyes reveal a depth of emotion and intelligence
@@ -39,7 +39,7 @@ export const ReadMore = () => {
           </p>
         </div>
 
-        <div className="flex my-5 text-[20px]">
+        <div className="flex my-5 text-[17px]">
           <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
           <p>
             From playful antics to serene moments of contemplation, cats weave a
