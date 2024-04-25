@@ -66,31 +66,19 @@ export const ReadMore = () => {
           <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 hover:scale-110  transition-all delay-75 cursor-pointer">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
             <p className="text-lg md:text-xl ">
-              Cats, with their enigmatic gaze and graceful movements, possess an
-              undeniable allure that has captivated humans for centuries. These
-              enigmatic felines, revered in ancient cultures and cherished as
-              beloved companions in modern times, embody a unique blend of
-              independence and affection.
+            Jin, a cat enthusiast, shared his deep admiration for the enigmatic charm and allure of cats. In his thoughtful commentary, Jin emphasized the graceful movements and timeless appeal of these fascinating creatures, highlighting their unique ability to captivate humans throughout history.
             </p>
           </div>
           <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 hover:scale-110  transition-all delay-75 cursor-pointer">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
             <p className="text-lg md:text-xl">
-              Cats, with their enigmatic gaze and graceful movements, possess an
-              undeniable allure that has captivated humans for centuries. These
-              enigmatic felines, revered in ancient cultures and cherished as
-              beloved companions in modern times, embody a unique blend of
-              independence and affection.
+            Chris, a cat lover, eloquently described the captivating nature of cats in his feedback. He marveled at their graceful movements and noted how they possess a timeless appeal to humans. Chris's words reflect the profound admiration many people have for these enigmatic felines.
             </p>
           </div>
           <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 hover:scale-110  transition-all delay-75 cursor-pointer">
-            <p className="text-lg md:text-xl font-bold">Chris said:</p>
+            <p className="text-lg md:text-xl font-bold">Anna said:</p>
             <p className="text-lg md:text-xl">
-              Cats, with their enigmatic gaze and graceful movements, possess an
-              undeniable allure that has captivated humans for centuries. These
-              enigmatic felines, revered in ancient cultures and cherished as
-              beloved companions in modern times, embody a unique blend of
-              independence and affection.
+            In another insightful comment, Anna echoed the sentiments of admiration for cats' enigmatic gaze and graceful movements. His words underscore the profound impact these creatures have on human emotions, from ancient cultures to modern times, embodying a unique blend of independence and affection.
             </p>
           </div>
         </div>
