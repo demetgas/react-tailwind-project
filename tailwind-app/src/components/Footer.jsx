@@ -3,8 +3,10 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="w-full bg-hero mt-[280px] flex flex-wrap justify-center gap-8 text-white text-xl">
-      <div className="flex flex-col mb-8 my-10">
-        <h2 className="text-2xl mb-4">About Us</h2>
+      <div className="flex flex-col mb-8 my-10 cursor-pointer ">
+        <h2 className="text-2xl mb-4 hover:text-3xl transition-all delay-75">
+          About Us
+        </h2>
         <a className="my-2" href="/">
           How it works
         </a>
@@ -18,8 +20,10 @@ export const Footer = () => {
           Terms of Service
         </a>
       </div>
-      <div className="flex flex-col mb-8">
-        <h2 className="text-2xl mb-4 my-10">Contact Us</h2>
+      <div className="flex flex-col mb-8 cursor-pointer">
+        <h2 className="text-2xl mb-4 my-10 hover:text-3xl transition-all delay-75">
+          Contact Us
+        </h2>
         <a className="my-2" href="/">
           Contact
         </a>
@@ -33,8 +37,10 @@ export const Footer = () => {
           Sponsorships
         </a>
       </div>
-      <div className="flex flex-col mb-8">
-        <h2 className="text-2xl mb-4 my-10 ">Videos</h2>
+      <div className="flex flex-col mb-8 cursor-pointer">
+        <h2 className="text-2xl mb-4 my-10 hover:text-3xl transition-all delay-75">
+          Videos
+        </h2>
         <a className="my-2" href="/">
           Submit Video
         </a>
@@ -48,8 +54,10 @@ export const Footer = () => {
           Influencer
         </a>
       </div>
-      <div className="flex flex-col mb-8">
-        <h2 className="text-2xl mb-4 my-10">Social Media</h2>
+      <div className="flex flex-col mb-8 cursor-pointer">
+        <h2 className="text-2xl mb-4 my-10 hover:text-3xl transition-all delay-75">
+          Social Media
+        </h2>
         <a className="my-2" href="/">
           Instagram
         </a>
@@ -63,8 +71,10 @@ export const Footer = () => {
           Twitter
         </a>
       </div>
-      <div className="flex flex-col mb-8">
-        <h2 className="text-2xl mb-4 my-10">Little Paws</h2>
+      <div className="flex flex-col mb-8 cursor-pointer">
+        <h2 className="text-2xl mb-4 my-10 hover:text-3xl transition-all delay-75">
+          Little Paws
+        </h2>
         <a className="my-2" href="/">
           Lili
         </a>
