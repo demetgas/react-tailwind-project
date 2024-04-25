@@ -8,9 +8,9 @@ export const ReadMore = () => {
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt="Enigmatic Cat"
-        className="w-full md:min-w-[400px] md:min-h-[490px] mx-auto lg:max-w-[16svw] lg:max-h-[45svh]  md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+        className="w-full md:min-w-[400px] sm:w-[60svw] md:min-h-[490px] mx-auto lg:max-w-[16svw] lg:max-h-[45svh]  md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
-      <div className="flex flex-col lg:mt-0 md:mt-20">
+      <div className="flex flex-col lg:mt-0 md:mt-20 sm:p-5">
         <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
           About Us
         </p>
@@ -54,7 +54,7 @@ export const ReadMore = () => {
             tapestry of charm into the fabric of our lives.
           </p>
         </div>
-        <button className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-5 lg:mt-10">
+        <button className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-5 lg:mt-10 sm:mt-5">
           Read More
         </button>
       </div>
