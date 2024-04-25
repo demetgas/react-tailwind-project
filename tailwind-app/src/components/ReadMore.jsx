@@ -4,20 +4,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="w-full h-[15svh] grid grid-cols-3 items-center">
+    <div className="w-full h-[15svh] grid md:grid-cols-2 lg:grid-cols-3 items-center">
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt=""
-        className="w-[16svw] h-[45svh] ml-60 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+        className="lg:w-[16svw] lg:h-[45svh] md:w-[45svw] md:h-[40svh] lg:ml-60 md:ml-[20px] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
-      <div className="flex flex-col">
-        <p className="underline text-[20px] font-bold cursor-pointer">
+      <div className="flex flex-col lg:mt-0 md:mt-20">
+        <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
           About Us
         </p>
-        <h1 className="text-3xl mt-2">
+        <h1 className="lg:text-3xl md:text-[25px] mt-2">
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
         </h1>
-        <p className="text-[20px] text-justify max-w-[650px] mt-3">
+        <p className="lg:text-[20px] md:text-[17px] text-justify lg:max-w-[650px] md:max-w-[350px] mt-3">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as
@@ -25,7 +25,7 @@ export const ReadMore = () => {
           independence and affection.
         </p>
 
-        <div className="flex mt-5 text-[17px]">
+        <div className="flex mt-5 md:text-[15px] lg:text-[17px]">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
             icon={faArrowRight}
@@ -35,7 +35,7 @@ export const ReadMore = () => {
             every step.
           </p>
         </div>
-        <div className="flex my-5 text-[17px]">
+        <div className="flex my-5 md:text-[15px] lg:text-[17px]">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
             icon={faArrowRight}
@@ -46,7 +46,7 @@ export const ReadMore = () => {
           </p>
         </div>
 
-        <div className="flex text-[17px]">
+        <div className="flex md:text-[15px] lg:text-[17px]">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
             icon={faArrowRight}
@@ -56,7 +56,7 @@ export const ReadMore = () => {
             tapestry of charm into the fabric of our lives.
           </p>
         </div>
-        <button className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold mt-10">
+        <button className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-5 lg:mt-10">
           Read More
         </button>
       </div>
