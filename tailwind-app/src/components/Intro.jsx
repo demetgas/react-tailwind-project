@@ -4,7 +4,7 @@ export const Intro = () => {
   return (
     <div className="max-w-[2800px] mx-auto h-[40svh] bg-hero mt-64  text-white flex justify-center items-center">
       <div className="text-center">
-        <h1 className="text-4xl font-bold ">
+        <h1 className="lg:text-4xl md:text-3xl sm:text-[27px]  font-bold ">
           Don't worry, our cats are here for you, friend. Come join us!
         </h1>
         <p className="text-xl mt-8">
