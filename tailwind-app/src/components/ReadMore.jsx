@@ -1,6 +1,6 @@
-import React from "react";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ReadMore = () => {
   return (
@@ -8,7 +8,7 @@ export const ReadMore = () => {
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt=""
-        className="lg:max-w-[16svw] lg:max-h-[45svh] md:w-[45svw] md:h-[40svh]  shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+        className="lg:max-w-[16svw] lg:max-h-[45svh] md:w-[45svw] md:h-[40svh] shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
       <div className="flex flex-col lg:mt-0 md:mt-20">
         <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
@@ -24,10 +24,9 @@ export const ReadMore = () => {
           beloved companions in modern times, embody a unique blend of
           independence and affection.
         </p>
-
         <div className="flex mt-5 md:text-[15px] lg:text-[17px]">
           <FontAwesomeIcon
-            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
+            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
           />
           <p>
@@ -37,18 +36,17 @@ export const ReadMore = () => {
         </div>
         <div className="flex my-5 md:text-[15px] lg:text-[17px]">
           <FontAwesomeIcon
-            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
+            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
           />
           <p>
             Their expressive eyes reveal a depth of emotion and intelligence
-            that intrigues and delights.{" "}
+            that intrigues and delights.
           </p>
         </div>
-
         <div className="flex md:text-[15px] lg:text-[17px]">
           <FontAwesomeIcon
-            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
+            className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
           />
           <p>
@@ -65,9 +63,9 @@ export const ReadMore = () => {
           Also here is what our users said...
         </h1>
         <div className="grid grid-cols-1 gap-6 mt-6">
-          <div className="border lg:max-w-[16svw] lg:max-h-[50svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
+          <div className="border max-w-full h-auto border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
-            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[15svw] lg:max-h-[30px]">
+            <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
@@ -75,9 +73,9 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border lg:max-w-[16svw] lg:max-h-[50svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
+          <div className="border max-w-full h-auto border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
-            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[15svw] lg:max-h-[30px]">
+            <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
@@ -85,9 +83,9 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border lg:max-w-[16svw] lg:max-h-[50svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
+          <div className="border max-w-full h-auto border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
-            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[15svw] lg:max-h-[30px]">
+            <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
