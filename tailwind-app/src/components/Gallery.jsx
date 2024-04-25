@@ -4,7 +4,7 @@ import gallery from "../data/gallery";
 export const Gallery = () => {
   return (
     <div className="max-w-[1200px] mx-auto">
-      <h2 className="text-center text-gray-700 font-bold text-4xl mt-10 mb-10">
+      <h2 className="text-center text-gray-700 font-bold text-4xl mt-20 mb-10">
         The pictures sent by our users...
       </h2>
       <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10 p-10  ">

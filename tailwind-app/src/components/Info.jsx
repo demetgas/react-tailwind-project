@@ -2,7 +2,7 @@ import React from "react";
 
 export const Info = () => {
   return (
-    <div className="max-w-[14940px] mx-auto lg:mt-[700px] md:mt-[1650px] sm:mt-[1000px]  bg-babyblue">
+    <div className="max-w-[14940px] mx-auto p-10 lg:mt-[700px] md:mt-[1400px] sm:mt-[1000px]  bg-babyblue">
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">
         <div className="text-justify">
           <h2 className="text-center text-gray-700 p-4 font-bold text-4xl italic">
