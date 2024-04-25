@@ -62,8 +62,8 @@ export const ReadMore = () => {
         <h1 className="text-center text-gray-700 font-bold text-4xl md:text-3xl">
           Also here is what our users said...
         </h1>
-        <div className="grid grid-cols-1 gap-6 mt-6 mx-auto">
-          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4">
+        <div className="grid grid-cols-1 gap-6 mt-6 mx-auto sm:m-5">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 ">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
             <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
