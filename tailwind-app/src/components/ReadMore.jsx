@@ -27,14 +27,20 @@ export const ReadMore = () => {
           </p>
 
           <div className="flex mt-5 text-[17px]">
-            <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
+            <FontAwesomeIcon
+              className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
+              icon={faArrowRight}
+            />
             <p>
               Cats possess an innate grace, moving with elegance and precision
               in every step.
             </p>
           </div>
           <div className="flex my-5 text-[17px]">
-            <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
+            <FontAwesomeIcon
+              className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
+              icon={faArrowRight}
+            />
             <p>
               Their expressive eyes reveal a depth of emotion and intelligence
               that intrigues and delights.{" "}
@@ -42,7 +48,10 @@ export const ReadMore = () => {
           </div>
 
           <div className="flex text-[17px]">
-            <FontAwesomeIcon className="mx-3 my-1" icon={faArrowRight} />
+            <FontAwesomeIcon
+              className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer "
+              icon={faArrowRight}
+            />
             <p>
               From playful antics to serene moments of contemplation, cats weave
               a tapestry of charm into the fabric of our lives.
