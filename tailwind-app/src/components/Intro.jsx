@@ -2,7 +2,7 @@ import React from "react";
 
 export const Intro = () => {
   return (
-    <div className="w-full h-[40svh] bg-intro mt-64  text-white flex justify-center items-center">
+    <div className="w-full h-[40svh] bg-hero mt-64  text-white flex justify-center items-center">
       <div className="text-center">
         <h1 className="text-4xl font-bold ">
           Don't worry, our cats are here for you, friend. Come join us!
