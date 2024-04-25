@@ -39,23 +39,6 @@ export const Footer = () => {
       </div>
       <div className="flex flex-col mb-8 cursor-pointer">
         <h2 className="text-2xl mb-4 my-10 hover:text-3xl transition-all delay-75">
-          Videos
-        </h2>
-        <a className="my-2" href="/">
-          Submit Video
-        </a>
-        <a className="my-2" href="/">
-          Ambassadors
-        </a>
-        <a className="my-2" href="/">
-          Agency
-        </a>
-        <a className="my-2" href="/">
-          Influencer
-        </a>
-      </div>
-      <div className="flex flex-col mb-8 cursor-pointer">
-        <h2 className="text-2xl mb-4 my-10 hover:text-3xl transition-all delay-75">
           Social Media
         </h2>
         <a className="my-2" href="/">
