@@ -13,7 +13,7 @@ export const Message = () => {
         <img
           src={cat}
           alt="/"
-          className=" md:h-full  p-2 max-h-[500px] h-[200px] w-[420px]"
+          className=" md:h-full  p-2 max-h-[500px] h-[200px] w-[420px]  transition-all delay-75"
         />
         <form>
           <div className="grid grid-cols-2  ">

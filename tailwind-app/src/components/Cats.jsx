@@ -6,7 +6,7 @@ export const Cats = () => {
     <div className="max-w-[1140px] mx-auto w-full grid grid-cols-1 md:grid-cols-4 mt-[-75px]">
       {cats.map((cat) => (
         <div
-          className="relative p-4 hover:scale-110 delay-75 cursor-pointer text-center"
+          className="relative p-4 hover:scale-110  transition-all delay-75 cursor-pointer text-center"
           key={cat.id}
         >
           <img
