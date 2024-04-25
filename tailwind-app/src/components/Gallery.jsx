@@ -3,12 +3,12 @@ import galleryArray from "../data/gallery";
 
 export const Gallery = () => {
   return (
-    <div className="w-full md:h-[230svh] lg:h-[80svh] mx-auto">
-      <h2 className="text-center text-gray-700 mt-[280px] font-bold text-4xl">
+    <div className="w-full md:h-[250svh] lg:h-[80svh] mx-auto md:mt-[280px] ">
+      <h2 className="text-center text-gray-700 font-bold text-4xl ">
         The pictures sent by our users...
       </h2>
-      <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center gap-20">
-        <div className="border-x-8 border-y-8 border-babyblue my-auto md:max-h-[45svh] md:max-w-[75svw]   md:content-center lg:max-h-[45svh] ">
+      <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center md:mt-[40px] ">
+        <div className="border-x-8 border-y-8 border-babyblue my-auto md:max-h-[45svh] md:max-w-[75svw] md:mx-auto  md:content-center lg:max-h-[45svh] ">
           <h1 className="text-center text-gray-700 text-[25px] mt-12  ">
             Thank you
           </h1>
@@ -35,7 +35,7 @@ export const Gallery = () => {
             and meaningful. Thank you for being a part of our community!
           </p>
         </div>
-        <div className="grid md:grid-cols-1  lg:grid-cols-2 lg:max-w-[90rem]  ">
+        <div className="grid md:grid-cols-1 lg:mr-28 lg:grid-cols-2 lg:max-w-[90rem]   ">
           {galleryArray.map((array) => (
             <div className="  mt-20  ">
               <div className="grid lg:grid-cols-4 md:grid-cols-2">
