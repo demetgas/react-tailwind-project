@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="w-full mt-[280px] md:h-[20svh] place-content-center flex justify-center">
+    <div className="w-full mt-[280px] gap-12 md:h-[20svh] place-content-center flex justify-center">
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt=""
-        className="w-[15svw] h-[35svh] mx-20 mt-10"
+        className="w-[15svw] h-[35svh] mt-10"
       />
       <div>
         <p className="underline text-[25px]">About Us</p>
@@ -51,7 +51,7 @@ export const ReadMore = () => {
         </button>
       </div>
       <div>
-        <p className="text-[20px] text-justify max-w-md mt-[100px]">
+        <p className="text-[20px] text-justify max-w-md mt-[120px]">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as
