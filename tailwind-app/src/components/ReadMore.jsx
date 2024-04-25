@@ -65,9 +65,9 @@ export const ReadMore = () => {
           Also here is what our users said...
         </h1>
         <div className="grid grid-cols-1 gap-6 mt-6">
-          <div className="border lg:max-w-[31svw] lg:max-h-[14svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
+          <div className="border lg:max-w-[16svw] lg:max-h-[50svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
-            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[30svw] lg:max-h-[30px]">
+            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[15svw] lg:max-h-[30px]">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
@@ -75,9 +75,9 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border lg:max-w-[31svw] lg:max-h-[14svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
+          <div className="border lg:max-w-[16svw] lg:max-h-[50svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
-            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[30svw] lg:max-h-[30px]">
+            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[15svw] lg:max-h-[30px]">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
@@ -85,9 +85,9 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border lg:max-w-[31svw] lg:max-h-[14svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
+          <div className="border lg:max-w-[16svw] lg:max-h-[50svh]  md:w-[85svw] md:h-[15svh] border-gray-300 rounded p-4">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
-            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[30svw] lg:max-h-[30px]">
+            <p className="text-lg md:text-xl mt-2 md:w-[80svw] lg:max-w-[15svw] lg:max-h-[30px]">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
