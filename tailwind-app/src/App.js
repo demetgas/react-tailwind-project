@@ -8,6 +8,7 @@ import { Intro } from "./components/Intro";
 import { Message } from "./components/Message";
 import { Navbar } from "./components/Navbar";
 import { ReadMore } from "./components/ReadMore";
+import { WhatWeDo } from "./components/WhatWeDo";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Intro />
         <ReadMore />
         <Info />
+        <WhatWeDo/>
         <Gallery />
         <Message />
         <Footer />
