@@ -63,9 +63,9 @@ export const ReadMore = () => {
           Also here is what our users said...
         </h1>
         <div className="grid grid-cols-1 gap-6 mt-6 mx-auto sm:m-5">
-          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 ">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 hover:scale-110  transition-all delay-75 cursor-pointer">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
-            <p className="text-lg md:text-xl">
+            <p className="text-lg md:text-xl ">
               Cats, with their enigmatic gaze and graceful movements, possess an
               undeniable allure that has captivated humans for centuries. These
               enigmatic felines, revered in ancient cultures and cherished as
@@ -73,7 +73,7 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 hover:scale-110  transition-all delay-75 cursor-pointer">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
             <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
@@ -83,7 +83,7 @@ export const ReadMore = () => {
               independence and affection.
             </p>
           </div>
-          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4">
+          <div className="border-8 max-w-full h-auto border-babyblue rounded p-4 hover:scale-110  transition-all delay-75 cursor-pointer">
             <p className="text-lg md:text-xl font-bold">Chris said:</p>
             <p className="text-lg md:text-xl">
               Cats, with their enigmatic gaze and graceful movements, possess an
