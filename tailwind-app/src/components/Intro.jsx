@@ -11,7 +11,7 @@ export const Intro = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
         </p>
-        <button className="bg-babyblue rounded w-32 h-12 text-black font-bold mt-10">
+        <button className="bg-babyblue hover:bg-babyblue2 rounded w-32 h-12 text-black font-bold mt-10">
           Contact Us
         </button>
       </div>

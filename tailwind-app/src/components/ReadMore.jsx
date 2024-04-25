@@ -9,10 +9,12 @@ export const ReadMore = () => {
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
           alt=""
-          className="w-[16svw] h-[45svh] ml-60 shadow-2xl shadow-hero"
+          className="w-[16svw] h-[45svh] ml-60 shadow-2xl shadow-hero hover:w-[18svw] hover:h-[47svh] transition-all delay-75"
         />
         <div className="flex flex-col">
-          <p className="underline text-[20px] font-bold">About Us</p>
+          <p className="underline text-[20px] font-bold cursor-pointer">
+            About Us
+          </p>
           <h1 className="text-3xl mt-2">
             <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
           </h1>
@@ -46,7 +48,7 @@ export const ReadMore = () => {
               a tapestry of charm into the fabric of our lives.
             </p>
           </div>
-          <button className="bg-hero2 rounded w-32 h-12 text-white font-bold mt-10">
+          <button className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold mt-10">
             Read More
           </button>
         </div>
