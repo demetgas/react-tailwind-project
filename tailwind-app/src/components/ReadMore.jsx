@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ReadMore = () => {
   return (
-    <div className="max-w-[1900px] mt-40 mx-auto lg:min-h-[25svh] md:h-[15svh] sm:h-[50svh] items-center">
+    <div
+      id="purpose"
+      className="max-w-[1900px] mt-40 mx-auto lg:min-h-[25svh] md:h-[15svh] sm:h-[50svh] items-center"
+    >
       <div className="grid md:grid-cols-2 w-full lg:grid-cols-3 md:gap-[28px] lg:gap-[80px]">
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"

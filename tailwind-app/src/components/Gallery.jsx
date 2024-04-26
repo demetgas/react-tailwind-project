@@ -3,7 +3,7 @@ import gallery from "../data/gallery";
 
 export const Gallery = () => {
   return (
-    <div className="max-w-[1200px] mx-auto">
+    <div id="gallery" className="max-w-[1200px] mx-auto">
       <h2 className="text-center text-gray-700 font-bold text-4xl mt-20 mb-10">
         The pictures sent by our users...
       </h2>

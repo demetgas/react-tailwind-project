@@ -13,14 +13,17 @@ export const Navbar = () => {
         <a href="/" className="hover:text-white">
           Home
         </a>
-        <a href="/" className="hover:text-white">
+        <a href="#purpose" className="hover:text-white">
+          Purpose
+        </a>
+        <a href="#info" className="hover:text-white">
           Info
         </a>
-        <a href="/" className="hover:text-white">
-          Contact
-        </a>
-        <a href="/" className="hover:text-white">
+        <a href="#gallery" className="hover:text-white">
           Gallery
+        </a>
+        <a href="#contact" className="hover:text-white">
+          Contact
         </a>
       </div>
     </div>
