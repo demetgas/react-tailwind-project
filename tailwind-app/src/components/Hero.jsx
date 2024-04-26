@@ -11,8 +11,10 @@ export const Hero = () => {
       <div className="grid grid-cols-2 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white">
           <div>
-            <h1 className="text-[70px]">Welcome to the Cat Paradise</h1>
-            <h2 className="text-[45px] py-4 italic">
+            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px]">
+              Welcome to the Cat Paradise
+            </h1>
+            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[20px] py-4 italic">
               Meet Our Furry Friends...
             </h2>
             <p className="text-justify max-w-[750px] text-[20px]">
