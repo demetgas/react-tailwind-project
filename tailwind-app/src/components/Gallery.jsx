@@ -9,9 +9,7 @@ export const Gallery = () => {
       </h2>
       <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10 p-10  ">
         <div className="border-8 h-auto md:mx-auto border-babyblue bg-babyblue p-10 my-auto">
-          <h1 className="text-center text-gray-700 text-3xl mb-5">
-            Thank you
-          </h1>
+          <h1 className="text-center text-gray-700 text-3xl mb-5">Thank you</h1>
           <p className="text-lg text-justify">
             We are immensely delighted whenever we receive pictures from our
             users; each image represents a unique story, perspective, or moment
@@ -29,7 +27,7 @@ export const Gallery = () => {
             and meaningful. Thank you for being a part of our community!
           </p>
         </div>
-        <div className="grid md:grid-cols-2 sm:grid-cols-2 md:mx-auto md:gap-x-20 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 md:mx-auto md:gap-x-10 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1">
           {gallery.map((picture) => (
             <img
               key={picture.id}
