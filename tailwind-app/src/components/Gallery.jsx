@@ -30,6 +30,7 @@ export const Gallery = () => {
         <div className="grid md:grid-cols-3 sm:grid-cols-2 md:mx-auto md:gap-x-10 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1">
           {gallery.map((picture) => (
             <img
+              alt="/"
               key={picture.id}
               src={picture.img}
               className="w-[180px] h-[180px] border-2 my-1"
