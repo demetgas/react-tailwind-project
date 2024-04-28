@@ -62,7 +62,7 @@ export const ReadMore = () => {
             Read More
           </button>
         </div>
-        <div className=" mx-auto text-center">
+        <div className=" md:mt-12 lg:mt-0 sm:mt-0 mx-auto text-center">
           <h1 className="lg:text-2xl md:text-[25px] sm:text-xl  font-bold">
             Also here is what our users said...
           </h1>
