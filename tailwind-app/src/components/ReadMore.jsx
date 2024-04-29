@@ -5,7 +5,7 @@ export const ReadMore = () => {
   return (
     <div
       id="purpose"
-      className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-3 md:grid-cols-2 lg:gap-32"
+      className="max-w-[1400px] m-auto py-16 grid lg:grid-cols-3 md:grid-cols-2 lg:gap-32"
     >
       <div>
         <img
