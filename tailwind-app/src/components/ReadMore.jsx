@@ -6,9 +6,9 @@ export const ReadMore = () => {
   return (
     <div
       id="purpose"
-      className="max-w-[1900px] mt-40  m-auto lg:min-h-[20svh] md:h-[15svh] sm:h-[50svh] items-center"
+      className="max-w-[1900px] mt-40  m-auto lg:h-[20svh] md:h-[15svh] sm:h-[50svh] items-center"
     >
-      <div className="grid items-center  md:grid-cols-2 w-full lg:grid-cols-3 md:gap-[28px] lg:gap-[80px]">
+      <div className="grid items-center md:grid-cols-2 lg:grid-cols-3 md:gap-[28px] lg:gap-[70px]">
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
           alt="Enigmatic Cat"
@@ -62,7 +62,7 @@ export const ReadMore = () => {
             Read More
           </button>
         </div>
-        <div className=" md:mt-12 lg:mt-0 sm:mt-0 mx-auto text-center">
+        <div className="  md:mt-12 lg:mt-0 sm:mt-0 mx-auto text-center">
           <h1 className="lg:text-2xl md:text-[25px] sm:text-xl  font-bold">
             Also here is what our users said...
           </h1>
