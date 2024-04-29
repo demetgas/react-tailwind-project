@@ -10,12 +10,12 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white">
+    <div className="w-full min-h-[50px] bg-hero flex justify-between items-center absolute z-10 text-white">
       <div className="pl-16 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer">
         LITTLE PAWS
         <FontAwesomeIcon className="icon" icon={faCat} />
       </div>
-      <div className="md:hidden">
+      <div className="md:hidden ">
         <button onClick={handleClick} className="text-xl text-gray-400  mr-4">
           {open ? (
             <FontAwesomeIcon icon={faTimes} />

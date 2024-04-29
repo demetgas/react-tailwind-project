@@ -4,11 +4,7 @@ import bgHero from "../assets/bghero.jpg";
 export const Hero = () => {
   return (
     <div className="relative w-full h-[78.5vh]">
-      <img
-        src={bgHero}
-        alt="/"
-        className="w-full h-[78.5vh] object-cover transform "
-      />
+      <img src={bgHero} alt="/" className="w-full h-[78.5vh] object-cover" />
       <div className="grid grid-cols-2 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white ">
           <div>
@@ -27,7 +23,7 @@ export const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="relative flex items-center justify-center overflow-hidden">
+        <div className=" flex items-center justify-center overflow-hidden">
           <img
             src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
             alt="/"
