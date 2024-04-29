@@ -6,7 +6,7 @@ export const Info = () => {
       id="info"
       className="max-w-[100%] p-10 lg:mt-[30px] md:mt-[60px] sm:mt-[10px]  bg-babyblue"
     >
-      <h2 className="text-center text-gray-700  font-bold lg:text-4xl md:text-3xl sm:text-3xl italic">
+      <h2 className="text-center text-gray-700  font-bold lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl italic">
         Cats are fascinating creatures
       </h2>
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">

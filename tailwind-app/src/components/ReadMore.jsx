@@ -11,11 +11,11 @@ export const ReadMore = () => {
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
           alt="Enigmatic Cat"
-          className="lg:min-w-1/4 md:w-[380px] md:min-h-[490px]  sm:w-[60svw]  mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+          className="lg:min-w-1/4 md:w-[380px] md:min-h-[490px]  sm:w-[60svw] xs:w-[60svw] mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
         />
       </div>
       <div className="flex text-justify flex-col lg:mt-0 md:mt-20 lg:p-0 md:p-0 sm:p-5">
-        <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
+        <p className="underline lg:text-[20px] md:text-[17px] xs:text-[17px] xs:mt-10 lg:mt-0 md:mt-0 sm:mt-10 font-bold cursor-pointer">
           Check this out
         </p>
         <h1 className="lg:text-3xl md:text-[25px] mt-2">
@@ -62,11 +62,11 @@ export const ReadMore = () => {
           Read More
         </button>
       </div>
-      <div className="  md:mt-12 lg:mt-0 sm:mt-0 mx-auto text-center ">
-        <h1 className="lg:text-2xl md:text-[25px] sm:text-xl  font-bold">
+      <div className="  md:mt-12 lg:mt-0 sm:mt-0 xs:mt-14 mx-auto text-center ">
+        <h1 className="lg:text-2xl md:text-[25px] sm:text-xl xs:text-xl  font-bold">
           Also here is what our users said...
         </h1>
-        <div className="grid lg:grid-cols-1 md:grid-cols-3 lg:w-[20svw] md:w-[100svw] sm:w-[60svw] gap-6 mt-6 mx-auto ">
+        <div className="grid lg:grid-cols-1 md:grid-cols-3 lg:w-[20svw] md:w-[100svw] sm:w-[60svw] xs:w-[60svw] gap-6 mt-6 mx-auto ">
           <div className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer">
             <p className="text-lg md:text-xl font-bold">Jin said:</p>
             <p className="text-lg md:text-xl p-3 text-justify  ">
