@@ -27,7 +27,7 @@ export const Gallery = () => {
             and meaningful. Thank you for being a part of our community!
           </p>
         </div>
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 md:mx-auto xs:mx-auto  md:gap-x-10 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1">
+        <div className="grid lg:grid-cols-3  md:grid-cols-3 sm:grid-cols-2 md:mx-auto xs:mx-auto  md:gap-x-5 sm:mx-auto sm:gap-x-10 lg:gap-0 gap-1">
           {gallery.map((picture) => (
             <img
               alt="/"
