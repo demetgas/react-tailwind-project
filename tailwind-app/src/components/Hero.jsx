@@ -1,12 +1,13 @@
 import React from "react";
+import bgHero from "../assets/bghero.jpg";
 
 export const Hero = () => {
   return (
     <div className="relative w-full h-[78.5vh]">
       <img
-        src="https://mrwallpaper.com/images/hd/minimalist-black-cat-backgrounds-3gy1fpvdc0tbdimn.jpg"
+        src={bgHero}
         alt="/"
-        className="w-full h-full object-cover transform scale-x-[-1]"
+        className="w-full h-[78.5vh] object-cover transform "
       />
       <div className="grid grid-cols-2 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white">
