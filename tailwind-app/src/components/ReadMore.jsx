@@ -12,11 +12,11 @@ export const ReadMore = () => {
         <img
           src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
           alt="Enigmatic Cat"
-          className="lg:min-w-1/4 md:w-[380px] md:min-h-[490px]  sm:w-[60svw]  mx-auto   md:mt-20 lg:mt-0 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+          className="lg:max-w-[18svw] md:max-w-[40svw] sm:max-w-[50svw] min-h-[490px] mx-auto md:mt-20 lg:mt-0 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
         />
         <div className="flex  flex-col lg:mt-0 md:mt-20 lg:p-0 md:p-0 sm:p-5">
           <p className="underline lg:text-[20px] md:text-[17px] font-bold cursor-pointer">
-            About Us
+            Learn More
           </p>
           <h1 className="lg:text-3xl md:text-[25px] mt-2">
             <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
