@@ -25,9 +25,9 @@ export const Navbar = () => {
         </button>
       </div>
       <ul
-        className={`md:flex ${
+        className={`md:flex  ${
           open ? "block" : "hidden"
-        } font-mono md:mt-0 mt-4 absolute md:relative top-full right-0 md:top-0 md:right-auto md:flex flex-col md:flex-row bg-hero2 md:bg-transparent w-full md:w-auto justify-center items-center`}
+        } md:mt-0 mt-4 absolute md:relative  top-full right-0 md:top-0 md:right-auto md:flex flex-col md:flex-row text-gray-400 text-xl bg-hero2 md:bg-transparent w-full md:w-auto justify-center items-center`}
       >
         <li className="p-4 hover:text-white" onClick={handleClick}>
           <a href="/">Home</a>
