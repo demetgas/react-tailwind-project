@@ -4,7 +4,7 @@ export const Info = () => {
   return (
     <div
       id="info"
-      className="max-w-[100%] p-10 lg:mt-[650px] md:mt-[1000px] sm:mt-[90rem]  bg-babyblue"
+      className="max-w-[100%] p-10 lg:mt-[650px] md:mt-[1000px] sm:mt-[75rem]  bg-babyblue"
     >
       <h2 className="text-center text-gray-700 p-4  font-bold text-4xl italic">
         Cats are fascinating creatures
