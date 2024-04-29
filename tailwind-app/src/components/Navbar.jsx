@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { faCat, faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { faCat, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Navbar = () => {
@@ -19,13 +19,17 @@ export const Navbar = () => {
         {!open ? (
           <FontAwesomeIcon className="" icon={faBars} onClick={handleClick} />
         ) : (
-          <FontAwesomeIcon className="icon" icon={faX} onClick={handleClick} />
+          <FontAwesomeIcon
+            className="icon"
+            icon={faTimes}
+            onClick={handleClick}
+          />
         )}
       </div>
       <div
-        className={`${
+        className={`absolute top-full right-0 ${
           open
-            ? "flex flex-col border border-white text-2xl p-6 mt-20"
+            ? "flex flex-col border border-white text-2xl p-6 mr-16 absolute md:relative md:border-none"
             : "hidden"
         } md:pr-16 text-gray-400 md:text-xl cursor-pointer`}
       >
