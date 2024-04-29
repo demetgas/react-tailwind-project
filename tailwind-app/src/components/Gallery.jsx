@@ -7,7 +7,7 @@ export const Gallery = () => {
       <h2 className="text-center text-gray-700 font-bold text-4xl mt-20 mb-10">
         The pictures sent by our users...
       </h2>
-      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10 p-10  ">
+      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10  ">
         <div className="border-8 h-auto md:mx-auto border-babyblue bg-babyblue p-10 my-auto">
           <h1 className="text-center text-gray-700 text-3xl mb-5">Thank you</h1>
           <p className="text-lg text-justify">
