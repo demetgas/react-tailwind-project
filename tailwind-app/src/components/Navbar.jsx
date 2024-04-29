@@ -33,7 +33,7 @@ export const Navbar = () => {
           <a href="/">Home</a>
         </li>
         <li className="p-4 hover:text-white" onClick={handleClick}>
-          <a href="#purpose">Purpose</a>
+          <a href="#purpose">About</a>
         </li>
         <li className="p-4 hover:text-white" onClick={handleClick}>
           <a href="#info">Info</a>
