@@ -1,6 +1,7 @@
 import React from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import comments from "../data/comments";
 export const ReadMore = () => {
   return (
     <div
@@ -67,31 +68,14 @@ export const ReadMore = () => {
           Also here is what our users said...
         </h1>
         <div className="grid lg:grid-cols-1 md:grid-cols-3 lg:w-[20svw] md:w-[100svw] sm:w-[60svw] xs:w-[60svw] gap-6 mt-6 mx-auto ">
-          <div className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer">
-            <p className="text-lg md:text-xl font-bold">Jin said:</p>
-            <p className="text-lg md:text-xl p-3 text-justify  ">
-              In his thoughtful commentary, Jin emphasized the graceful
-              movements and timeless appeal of these fascinating creatures,
-              highlighting their unique ability to captivate humans throughout
-              history.
-            </p>
-          </div>
-          <div className="border-8  h-auto border-babyblue rounded  hover:scale-110  transition-all delay-75 cursor-pointer">
-            <p className="text-lg md:text-xl font-bold">Chris said:</p>
-            <p className="text-lg md:text-xl p-3 text-justify">
-              Chris, a cat lover, eloquently described the captivating nature of
-              cats in his feedback. He marveled at their graceful movements and
-              noted how they possess a timeless appeal to humans.
-            </p>
-          </div>
-          <div className="border-8  h-auto border-babyblue rounded  hover:scale-110  transition-all delay-75 cursor-pointer">
-            <p className="text-lg md:text-xl font-bold">Anna said:</p>
-            <p className="text-lg md:text-xl p-3 text-justify">
-              Her words underscore the profound impact these creatures have on
-              human emotions, from ancient cultures to modern times, embodying a
-              unique blend of independence and affection.
-            </p>
-          </div>
+          {comments.map((comment) => (
+            <div className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer">
+              <p className="text-lg md:text-xl font-bold">{comment.title}</p>
+              <p className="text-lg md:text-xl p-3 text-justify  ">
+                {comment.desc}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

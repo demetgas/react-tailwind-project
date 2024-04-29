@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  faCat,
-  faPaw,
-  faBowlFood,
-  faHeart,
-} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import whatWeDo from "../data/whatwedo";
 
