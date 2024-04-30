@@ -5,13 +5,13 @@ export const Hero = () => {
   return (
     <div className="relative w-full h-[78.5vh]">
       <img src={bgHero} alt="/" className="w-full h-[78.5vh] object-cover" />
-      <div className="grid grid-cols-2 absolute inset-0">
+      <div className="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white ">
           <div>
-            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] xs:text-[23px]">
+            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] xs:text-[23px] md:mt-0 sm:mt-40 mt-40">
               Welcome to the Cat Paradise
             </h1>
-            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[20px] xs:text-[17px] py-4 italic">
+            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[25px] xs:text-[17px] py-4 italic">
               Meet Our Furry Friends...
             </h2>
             <p className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] xs:text-[17px]">
@@ -27,7 +27,7 @@ export const Hero = () => {
           <img
             src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
             alt="/"
-            className="max-w-full max-h-max opacity-75 transform scale-x-[-1] self-end"
+            className="max-w-full max-h-max sm:w-[80vw] opacity-75 transform scale-x-[-1] self-end"
           />
         </div>
       </div>
