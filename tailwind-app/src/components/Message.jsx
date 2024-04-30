@@ -47,7 +47,7 @@ export const Message = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <button className="m-2 p-2 col-span-2 rounded text-white bg-hero2 hover:bg-hero">
+            <button className="m-2 p-2 col-span-2 rounded text-white bg-hero2 hover:bg-hero transition duration-3000 ease-out delay-100">
               Submit
             </button>
           </div>

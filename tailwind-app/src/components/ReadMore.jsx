@@ -69,7 +69,7 @@ export const ReadMore = () => {
             their exceptional night vision and sensitive whiskers.
           </p>
         </div>
-        <button className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-8 lg:mt-10 sm:mt-5 xs:mt-5 xs:mx-auto sm:mx-auto md:mx-0 lg:mx-0">
+        <button className="bg-hero2 hover:bg-hero transition duration-3000 ease-out delay-100 rounded w-32 h-12 text-white font-bold md:mt-8 lg:mt-10 sm:mt-5 xs:mt-5 xs:mx-auto sm:mx-auto md:mx-0 lg:mx-0">
           Read More
         </button>
       </div>
