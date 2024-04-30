@@ -16,20 +16,20 @@ export const ReadMore = () => {
         />
       </div>
       <div className="flex text-justify flex-col lg:mt-0 md:mt-20 lg:p-0 md:p-0 sm:p-5 ">
-        <p className="underline lg:text-[20px] md:text-[17px] xs:text-[17px] xs:mt-10 lg:mt-0 md:mt-0 sm:mt-10 font-bold cursor-pointer ml-1 xs:ml-4">
+        <p className="underline lg:text-[20px] md:text-[17px] xs:text-[17px] xs:mt-10 lg:mt-0 md:mt-0 sm:mt-10 font-bold cursor-pointer ">
           Check this out
         </p>
-        <h1 className="lg:text-3xl md:text-[25px] xs:text-lg sm:text-2xl mt-2 xs:ml-4 ml-1">
+        <h1 className="lg:text-3xl md:text-[25px] xs:text-lg sm:text-2xl mt-2  ">
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
         </h1>
-        <p className="flex mt-5 md:text-[15px] lg:text-[17px] xs:ml-4 ml-1 ">
+        <p className="flex mt-5 md:text-[15px] lg:text-[17px] p-2 ">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as
           beloved companions in modern times, embody a unique blend of
           independence and affection.
         </p>
-        <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+        <div className="flex my-5 md:text-[15px] lg:text-[17px] pr-2">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
@@ -39,7 +39,7 @@ export const ReadMore = () => {
             every step.
           </p>
         </div>
-        <div className="flex  md:text-[15px] lg:text-[17px]">
+        <div className="flex  md:text-[15px] lg:text-[17px] pr-2">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
@@ -49,7 +49,7 @@ export const ReadMore = () => {
             that intrigues and delights.
           </p>
         </div>
-        <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+        <div className="flex my-5 md:text-[15px] lg:text-[17px] pr-2">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
@@ -59,7 +59,7 @@ export const ReadMore = () => {
             tapestry of charm into the fabric of our lives.
           </p>
         </div>
-        <div className="flex  md:text-[15px] lg:text-[17px]">
+        <div className="flex  md:text-[15px] lg:text-[17px] pr-2">
           <FontAwesomeIcon
             className="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
             icon={faArrowRight}
