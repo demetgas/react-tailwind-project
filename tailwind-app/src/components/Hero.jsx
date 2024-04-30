@@ -8,13 +8,13 @@ export const Hero = () => {
       <div className="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white ">
           <div>
-            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] xs:text-[23px] md:mt-0 sm:mt-40 mt-40">
+            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[28px] md:mt-0 sm:mt-40 mt-40">
               Welcome to the Cat Paradise
             </h1>
-            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[25px] xs:text-[17px] py-4 italic">
+            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[22px] py-4 italic">
               Meet Our Furry Friends...
             </h2>
-            <p className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] xs:text-[17px]">
+            <p className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[20px]">
               Here at our home, we are proud to introduce you to our beloved
               feline companions. Each one has their own unique personality and
               charm, and they bring endless joy to our lives. Join us on this
@@ -27,7 +27,7 @@ export const Hero = () => {
           <img
             src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
             alt="/"
-            className="max-w-full max-h-max sm:w-[80vw] opacity-75 transform scale-x-[-1] self-end"
+            className="md:max-w-full md:max-h-max sm:max-w-[80vw] opacity-75 transform scale-x-[-1] self-end"
           />
         </div>
       </div>
