@@ -8,13 +8,13 @@ export const Hero = () => {
       <div className="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white mt-28 md:mt-0 ">
           <div>
-            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[27px]">
+            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[25px]">
               Welcome to the Cat Paradise
             </h1>
-            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[22px] py-4 italic">
+            <h2 className="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[20px] py-4 italic">
               Meet Our Furry Friends...
             </h2>
-            <p className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[19px]">
+            <p className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[17px]">
               Here at our home, we are proud to introduce you to our beloved
               feline companions. Each one has their own unique personality and
               charm, and they bring endless joy to our lives. Join us on this
