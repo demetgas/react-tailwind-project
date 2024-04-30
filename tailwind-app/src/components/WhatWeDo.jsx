@@ -14,12 +14,7 @@ export const WhatWeDo = () => {
               size="4x"
             />
             <h2 className="text-center font-bold m-2">{item.title}</h2>
-            <p className="text-center text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iusto
-              sit corrupti? Distinctio cumque, itaque dicta nemo ipsa obcaecati
-              accusantium repellendus voluptatum reprehenderit deleniti
-              cupiditate ad fugit illo blanditiis nisi?
-            </p>
+            <p className=" text-justify">{item.desc}</p>
           </div>
         ))}
       </div>

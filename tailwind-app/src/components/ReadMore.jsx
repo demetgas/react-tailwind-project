@@ -19,7 +19,7 @@ export const ReadMore = () => {
         <p className="underline lg:text-[20px] md:text-[17px] xs:text-[17px] xs:mt-10 lg:mt-0 md:mt-0 sm:mt-10 font-bold cursor-pointer ">
           Check this out
         </p>
-        <h1 className="lg:text-3xl md:text-[25px] xs:text-lg sm:text-2xl mt-2  ">
+        <h1 className="lg:text-3xl md:text-[25px] xs:text-lg sm:text-2xl mt-2 text-start  ">
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
         </h1>
         <p className="flex mt-5 md:text-[15px] lg:text-[17px] p-2 ">
