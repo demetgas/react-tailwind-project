@@ -79,7 +79,7 @@ export const ReadMore = () => {
         </h1>
         <div className="grid lg:grid-cols-1 md:grid-cols-3 lg:w-[20svw] md:w-[100svw] sm:w-[60svw] xs:w-[60svw] gap-6 mt-6 mx-auto ">
           {comments.map((comment) => (
-            <div className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer">
+            <div className="border-8  h-auto border-babyblue rounded hover:scale-110 hover:border-babyblue2   transition-all delay-75 cursor-pointer">
               <p className="text-lg md:text-xl font-bold mt-4">
                 {comment.title}
               </p>
