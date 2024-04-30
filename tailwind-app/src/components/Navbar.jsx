@@ -27,7 +27,7 @@ export const Navbar = () => {
       <ul
         className={`md:flex  ${
           open ? "block" : "hidden"
-        } md:mt-0 absolute md:relative  top-full right-0 md:top-0 md:right-auto md:flex flex-col md:flex-row text-gray-400 text-xl bg-hero2 md:bg-transparent w-[30vw] md:w-auto text-center justify-center items-center`}
+        } md:mt-0 absolute md:relative  top-full right-0 md:top-0 md:right-auto flex-col md:flex-row text-gray-400 text-xl bg-hero2 md:bg-transparent w-[30vw] md:w-auto text-center justify-center items-center`}
       >
         <li
           className="p-4 hover:text-white hover:underline"
