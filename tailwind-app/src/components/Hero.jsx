@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
         <div className="flex items-center justify-center p-4 text-white ">
           <div>
-            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[28px] md:mt-0 sm:mt-40 mt-40">
+            <h1 className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[28px] mt-0 xs:mt-40 sm:mt-0">
               Welcome to the Cat Paradise
             </h1>
             <h2 className="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[22px] py-4 italic">
@@ -27,7 +27,7 @@ export const Hero = () => {
           <img
             src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
             alt="/"
-            className="md:max-w-full md:max-h-max sm:max-w-[80vw] opacity-75 transform scale-x-[-1] self-end"
+            className="md:max-w-full md:max-h-max sm:max-w-[80vw] sm:absolute md:sticky opacity-75 transform scale-x-[-1] self-end"
           />
         </div>
       </div>
