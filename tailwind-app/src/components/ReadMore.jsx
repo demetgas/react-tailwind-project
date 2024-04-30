@@ -8,21 +8,19 @@ export const ReadMore = () => {
       id="purpose"
       className="max-w-[1400px] m-auto py-16 grid lg:grid-cols-3 md:grid-cols-2 lg:gap-32"
     >
-      <div>
-        <img
-          src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
-          alt="Enigmatic Cat"
-          className="lg:min-w-1/4 md:w-[380px] md:min-h-[490px]  sm:w-[60svw] xs:w-[60svw] mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
-        />
-      </div>
-      <div className="flex text-justify flex-col lg:mt-0 md:mt-20 lg:p-0 md:p-0 sm:p-5 ">
+      <img
+        src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
+        alt="Enigmatic Cat"
+        className=" md:w-[380px] md:min-h-[490px]  sm:w-[60svw] xs:w-[60svw] mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+      />
+      <div className="flex flex-col text-justify  lg:mt-0 md:mt-20 lg:p-0 md:p-0 sm:p-5 xs:p-5">
         <p className="underline lg:text-[20px] md:text-[17px] xs:text-[17px] xs:mt-10 lg:mt-0 md:mt-0 sm:mt-10 font-bold cursor-pointer ">
           Check this out
         </p>
         <h1 className="lg:text-3xl md:text-[25px] xs:text-lg sm:text-2xl mt-2 text-start  ">
           <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
         </h1>
-        <p className="flex mt-5 md:text-[15px] lg:text-[17px] p-2 ">
+        <p className=" mt-5 md:text-[15px] lg:text-[17px] p-2 ">
           Cats, with their enigmatic gaze and graceful movements, possess an
           undeniable allure that has captivated humans for centuries. These
           enigmatic felines, revered in ancient cultures and cherished as

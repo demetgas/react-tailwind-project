@@ -9,7 +9,7 @@ export const Info = () => {
       <h2 className="text-center text-gray-700  font-bold lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl italic">
         Cats are fascinating creatures
       </h2>
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-32 max-w-[1140px] mx-auto py-10">
         <div className="text-justify">
           <p className="mb-7 mt-10 text-lg">
             Cats' unique behaviors, from their playful antics to their grooming
@@ -36,7 +36,7 @@ export const Info = () => {
           <img
             src="https://images.vexels.com/media/users/3/272056/isolated/preview/54b293603423b19ebd21fee4c7f475e8-cute-black-cartoon-cat.png"
             alt=""
-            className="lg:w-[450px] md:w-[300px]   max-h-full hover:scale-110 transition-all delay-75"
+            className="lg:w-[450px] w-[300px]   max-h-full hover:scale-110 transition-all delay-75"
           />
         </div>
       </div>
