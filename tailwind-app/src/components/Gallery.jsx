@@ -7,7 +7,7 @@ export const Gallery = () => {
       <h2 className="text-center text-gray-700 font-bold text-4xl mt-20 mb-10">
         The pictures sent by our users...
       </h2>
-      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 xs:p-10  ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 xs:p-10  ">
         <div className="border-8 h-auto md:mx-auto xs:mx-auto border-babyblue bg-babyblue p-10 my-auto">
           <h1 className="text-center text-gray-700 text-3xl mb-5">Thank you</h1>
           <p className="text-lg text-justify">
@@ -27,7 +27,7 @@ export const Gallery = () => {
             and meaningful. Thank you for being a part of our community!
           </p>
         </div>
-        <div className="grid lg:grid-cols-3  md:grid-cols-3 sm:grid-cols-2 md:mx-auto xs:mx-auto  md:gap-x-5 sm:mx-auto sm:gap-x-10 lg:gap-0 gap-1">
+        <div className="grid lg:grid-cols-3  md:grid-cols-3 grid-cols-2 md:mx-auto xs:mx-auto  md:gap-x-5 sm:mx-auto gap-x-7 lg:gap-0 gap-1">
           {gallery.map((picture) => (
             <img
               alt="/"

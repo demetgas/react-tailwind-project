@@ -5,7 +5,7 @@ import whatWeDo from "../data/whatwedo";
 export const WhatWeDo = () => {
   return (
     <div className="max-w-[100%] h-auto mt-20">
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-10">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">
         {whatWeDo.map((item) => (
           <div className="mx-auto border-2 m-10 lg:w-[20svw] md:w-[20svh] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 hover:border-babyblue2  transition-all delay-75 cursor-pointer">
             <FontAwesomeIcon

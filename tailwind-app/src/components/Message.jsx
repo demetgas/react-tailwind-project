@@ -9,7 +9,7 @@ export const Message = () => {
       <p className="text-center text-gray-700 text-2xl">
         Can't wait to hear your thoughts!
       </p>
-      <div className="grid md:grid-cols-2 mt-16 ">
+      <div className="grid md:grid-cols-2 grid-cols-1 mt-16 ">
         <img
           src={cat}
           alt="/"
