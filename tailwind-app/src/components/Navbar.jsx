@@ -29,19 +29,34 @@ export const Navbar = () => {
           open ? "block" : "hidden"
         } md:mt-0 mt-4 absolute md:relative  top-full right-0 md:top-0 md:right-auto md:flex flex-col md:flex-row text-gray-400 text-xl bg-hero2 md:bg-transparent w-full md:w-auto justify-center items-center`}
       >
-        <li className="p-4 hover:text-white" onClick={handleClick}>
+        <li
+          className="p-4 hover:text-white hover:underline"
+          onClick={handleClick}
+        >
           <a href="/">Home</a>
         </li>
-        <li className="p-4 hover:text-white" onClick={handleClick}>
+        <li
+          className="p-4 hover:text-white hover:underline"
+          onClick={handleClick}
+        >
           <a href="#purpose">About</a>
         </li>
-        <li className="p-4 hover:text-white" onClick={handleClick}>
+        <li
+          className="p-4 hover:text-white hover:underline"
+          onClick={handleClick}
+        >
           <a href="#info">Info</a>
         </li>
-        <li className="p-4 hover:text-white" onClick={handleClick}>
+        <li
+          className="p-4 hover:text-white hover:underline"
+          onClick={handleClick}
+        >
           <a href="#gallery">Gallery</a>
         </li>
-        <li className="p-4 hover:text-white" onClick={handleClick}>
+        <li
+          className="p-4 hover:text-white hover:underline"
+          onClick={handleClick}
+        >
           <a href="#contact">Contact</a>
         </li>
       </ul>
