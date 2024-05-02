@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-full min-h-[50px] bg-hero flex justify-between items-center absolute z-10 text-white">
-      <div className="lg:pl-16 md:pl-16 sm:pl-5 pl-5  text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer">
+      <div className="md:pl-16 pl-5  text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer">
         LITTLE PAWS
         <FontAwesomeIcon className="icon" icon={faCat} />
       </div>
