@@ -6,7 +6,7 @@ export const ReadMore = () => {
   return (
     <div
       id="purpose"
-      className="lg:max-w-[1800px] m-auto py-16 grid lg:grid-cols-3 md:grid-cols-2 md:gap-5"
+      className="max-w-[1800px] m-auto py-16 grid lg:grid-cols-3 md:grid-cols-2 md:gap-5"
     >
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
