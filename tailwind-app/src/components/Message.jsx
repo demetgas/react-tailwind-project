@@ -3,7 +3,7 @@ import cat from "../assets/f2.jpeg";
 export const Message = () => {
   return (
     <div id="contact" className="max-w-[1140px] m-auto mt-[5svh] ">
-      <h2 className="text-center text-gray-700 p-4 font-bold md:text-4xl text-2xl">
+      <h2 className="text-center text-gray-700 p-4 font-bold md:text-4xl text-3xl">
         Send us a message
       </h2>
       <p className="text-center text-gray-700 md:text-2xl text-xl">
