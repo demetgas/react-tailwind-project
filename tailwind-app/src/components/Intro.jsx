@@ -8,11 +8,11 @@ export const Intro = () => {
           Welcome to our cat community, where our furry friends are here to
           support you!
         </h1>
-        <p className="lg:text-2xl md:text-[20px]  mt-8 text-[19px]">
+        <p className="lg:text-2xl md:text-[20px] mt-5 sm:mt-7 md:mt-8 text-[19px]">
           Join us to share in the joy and wonder that these charming creatures
           bring to our lives.
         </p>
-        <button className="bg-babyblue hover:bg-babyblue2 transition duration-3000 ease-out delay-100 rounded w-32 h-12 text-black font-bold mt-10">
+        <button className="bg-babyblue hover:bg-babyblue2 transition duration-3000 ease-out delay-100 rounded w-32 h-12 text-black font-bold md:mt-10 sm:mt-10 mt-5">
           Contact Us
         </button>
       </div>
