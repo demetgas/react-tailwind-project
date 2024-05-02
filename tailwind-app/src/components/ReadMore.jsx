@@ -71,11 +71,11 @@ export const ReadMore = () => {
           Read More
         </button>
       </div>
-      <div className="  md:mt-12 lg:mt-0 sm:mt-14 xs:mt-14 mx-auto text-center ">
-        <h1 className="lg:text-2xl md:text-[25px] sm:text-xl xs:text-xl  font-bold">
+      <div className="  md:mt-12 lg:mt-0  mt-14 mx-auto text-center ">
+        <h1 className="lg:text-2xl md:text-[25px]  text-xl  font-bold">
           Also here is what our users said...
         </h1>
-        <div className="grid lg:grid-cols-1 md:grid-cols-3 lg:w-[20svw] md:w-[100svw] sm:w-[60svw] xs:w-[60svw] gap-6 mt-6 mx-auto ">
+        <div className="grid lg:grid-cols-1 md:grid-cols-3 lg:w-[20svw] md:w-[100svw] w-[60svw] gap-6 mt-6 mx-auto ">
           {comments.map((comment) => (
             <div className="border-8  h-auto border-babyblue rounded hover:scale-110 hover:border-babyblue2   transition-all delay-75 cursor-pointer">
               <p className="text-lg md:text-xl font-bold mt-4">
