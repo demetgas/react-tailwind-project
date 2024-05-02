@@ -3,17 +3,17 @@ import cat from "../assets/f2.jpeg";
 export const Message = () => {
   return (
     <div id="contact" className="max-w-[1140px] m-auto mt-[5svh] ">
-      <h2 className="text-center text-gray-700 p-4 font-bold text-4xl">
+      <h2 className="text-center text-gray-700 p-4 font-bold md:text-4xl text-2xl">
         Send us a message
       </h2>
-      <p className="text-center text-gray-700 text-2xl">
+      <p className="text-center text-gray-700 md:text-2xl text-xl">
         Can't wait to hear your thoughts!
       </p>
       <div className="grid md:grid-cols-2 grid-cols-1 mt-16 ">
         <img
           src={cat}
           alt="/"
-          className=" md:h-full sm:w-[400px] sm:h-[400px] xs:w-[400px] xs:h-[400px] mx-auto  p-2 max-h-[500px] h-[200px] w-[420px] hover:scale-110 transition-all delay-75"
+          className=" md:h-full w-[400px] h-[400px]  mx-auto  p-2 max-h-[500px]  hover:scale-110 transition-all delay-75"
         />
         <form>
           <div className="grid grid-cols-2  ">

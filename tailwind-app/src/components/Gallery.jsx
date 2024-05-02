@@ -8,7 +8,7 @@ export const Gallery = () => {
         The pictures sent by our users...
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 p-7  ">
-        <div className="border-8 h-auto md:mx-auto xs:mx-auto border-babyblue bg-babyblue p-10 my-auto">
+        <div className="border-8 h-auto  border-babyblue bg-babyblue p-10 my-auto">
           <h1 className="text-center text-gray-700 text-3xl mb-5">Thank you</h1>
           <p className="text-lg text-justify">
             We are immensely delighted whenever we receive pictures from our

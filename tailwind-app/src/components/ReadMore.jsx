@@ -14,7 +14,7 @@ export const ReadMore = () => {
         className=" md:w-[380px] md:min-h-[490px]  sm:w-[60svw] w-[60svw]   mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
       <div className="flex flex-col text-justify  lg:mt-0 md:mt-20 lg:p-0 md:p-0 sm:p-5 p-5">
-        <p className="underline lg:text-[20px] md:text-[17px] text-[17px] xs:mt-10 lg:mt-0 md:mt-0 sm:mt-10 font-bold cursor-pointer ">
+        <p className="underline lg:text-[20px] md:text-[17px] text-[17px]  md:mt-0 mt-7 font-bold cursor-pointer ">
           Check this out
         </p>
         <h1 className="lg:text-3xl md:text-[25px] text-lg sm:text-2xl mt-2 text-start  ">
