@@ -7,7 +7,7 @@ export const WhatWeDo = () => {
     <div className="max-w-[100%] h-auto mt-20">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">
         {whatWeDo.map((item) => (
-          <div className="mx-auto border-2 m-10 lg:w-[20svw] md:w-[30svh] sm:w-[40svw] w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 hover:border-babyblue2  transition-all delay-75 cursor-pointer">
+          <div className="mx-auto border-2 m-10 lg:w-[90%] md:w-[80%] sm:w-[55%] w-[75%] h-auto p-5 flex flex-col items-center hover:scale-110 hover:border-babyblue2  transition-all delay-75 cursor-pointer">
             <FontAwesomeIcon
               className="text-babyblue2"
               icon={item.icon}
