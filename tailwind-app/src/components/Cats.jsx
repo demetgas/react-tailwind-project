@@ -9,13 +9,10 @@ export const Cats = () => {
           className="relative p-4 hover:scale-110 hover:underline  transition delay-75 cursor-pointer text-center"
           key={cat.id}
         >
-          <div
+          <img
             className="w-64 h-64 object-cover mx-auto border-4 border-black p-2 shadow-lg"
-            style={{
-              backgroundImage: `url(${cat.img})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+            src={cat.img}
+            alt="/"
           />
           <h3 className="text-black  bg-opacity-70 rounded-md p-1.5 border-black text-xl font-bold">
             {cat.name}
