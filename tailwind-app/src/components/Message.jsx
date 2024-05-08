@@ -7,32 +7,16 @@ export const Message = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
-  const [nameFocused, setNameFocused] = useState(false);
-  const [lastNameFocused, setLastNameFocused] = useState(false);
-  const [emailFocused, setEmailFocused] = useState(false);
-  const [phoneFocused, setPhoneFocused] = useState(false);
-  const [addressFocused, setAddressFocused] = useState(false);
+  const [focusedInputs, setFocusedInputs] = useState({
+    name: false,
+    lastName: false,
+    email: false,
+    phone: false,
+    address: false,
+  });
 
   const handleInputFocus = (id) => {
-    switch (id) {
-      case "name":
-        setNameFocused(true);
-        break;
-      case "lastName":
-        setLastNameFocused(true);
-        break;
-      case "email":
-        setEmailFocused(true);
-        break;
-      case "phone":
-        setPhoneFocused(true);
-        break;
-      case "address":
-        setAddressFocused(true);
-        break;
-      default:
-        break;
-    }
+    setFocusedInputs({ ...focusedInputs, [id]: true });
   };
 
   const handleInputBlur = (id) => {
@@ -50,25 +34,7 @@ export const Message = () => {
         : "";
 
     if (!value) {
-      switch (id) {
-        case "name":
-          setNameFocused(false);
-          break;
-        case "lastName":
-          setLastNameFocused(false);
-          break;
-        case "email":
-          setEmailFocused(false);
-          break;
-        case "phone":
-          setPhoneFocused(false);
-          break;
-        case "address":
-          setAddressFocused(false);
-          break;
-        default:
-          break;
-      }
+      setFocusedInputs({ ...focusedInputs, [id]: false });
     }
   };
 
@@ -99,7 +65,7 @@ export const Message = () => {
               />
               <span
                 className={`absolute left-5 top-4 text-gray-400 transition duration-200 ${
-                  nameFocused
+                  focusedInputs.name
                     ? "text-sky-700 bg-white transform -translate-y-5 scale-90"
                     : ""
                 }`}
@@ -118,7 +84,7 @@ export const Message = () => {
               />
               <span
                 className={`absolute left-5 top-4 text-gray-400 transition duration-200 ${
-                  lastNameFocused
+                  focusedInputs.lastName
                     ? "bg-white text-sky-700 transform -translate-y-5 scale-90"
                     : ""
                 }`}
@@ -137,7 +103,7 @@ export const Message = () => {
               />
               <span
                 className={`absolute left-5 top-4 text-gray-400 transition duration-200 ${
-                  emailFocused
+                  focusedInputs.email
                     ? "text-sky-700 bg-white transform -translate-y-5 scale-90"
                     : ""
                 }`}
@@ -156,7 +122,7 @@ export const Message = () => {
               />
               <span
                 className={`absolute left-5 top-4 text-gray-400 transition duration-200 ${
-                  phoneFocused
+                  focusedInputs.phone
                     ? "text-sky-700 bg-white transform -translate-y-5 scale-90"
                     : ""
                 }`}
@@ -175,7 +141,7 @@ export const Message = () => {
               />
               <span
                 className={`absolute left-5 top-4 text-gray-400 transition duration-200 ${
-                  addressFocused
+                  focusedInputs.address
                     ? "text-sky-700 bg-white transform -translate-y-5 scale-90"
                     : ""
                 }`}
