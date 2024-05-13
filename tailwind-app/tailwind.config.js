@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         babyblue: "#d4dfe7",
         babyblue2: "#acbfcc",
+        babyblue3: "#93b3c9",
         hero: "#091315",
         hero2: "#142529",
         intro: "#141414",
